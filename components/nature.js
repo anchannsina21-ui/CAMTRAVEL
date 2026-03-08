@@ -285,11 +285,11 @@ function renderCards() {
 
     return `
     <div class="card-hover bg-white/80 backdrop-blur shadow-md rounded-2xl overflow-hidden
-                transition-all duration-500 transform hover:-translate-y-2 hover:shadow-teal-500 group
+                transition-all duration-500 transform hover:translate-y-2 hover:shadow-teal-500 group
                 animate-fadeUp" style="animation-delay:${index * 40}ms">
       <div class="relative">
         <img src="${place.image}" alt="${place.title}"
-          class="w-full h-32 object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out">
+          class="w-full h-36 object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out">
         <button onclick="toggleLike(${index})"
           class="absolute top-4 right-4 w-10 h-10 bg-white/40 rounded-full flex items-center justify-center
                  cursor-pointer hover:scale-110 hover:bg-black/30 transition-transform duration-200">
@@ -441,7 +441,7 @@ function renderSuggestedPlaces(currentId) {
         <img src="${place.image}" alt="${place.title}"
           class="w-full h-32 object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out">
         <button onclick="toggleLike(${realIndex})"
-          class="absolute top-4 right-4 w-10 h-10 bg-black/40 rounded-full flex items-center justify-center cursor-pointer">
+          class="absolute top-4 right-4 w-10 h-10 bg-white/40 hover:bg-black/30 rounded-full flex items-center justify-center cursor-pointer">
           <svg class="w-6 h-6 ${heartColor}" ${heartFill} stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round"
               d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
@@ -556,8 +556,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function getSlideClasses() {
       const w = window.innerWidth;
-      if (w >= 1024) return 'w-[210px] h-[300px]';
-      if (w >= 640)  return 'w-[230px] h-[280px]';
+      if (w >= 1024) return 'w-[230px] h-[320px]';
+      if (w >= 640)  return 'w-[220px] h-[300px]';
       return 'w-[160px] h-[260px]';
     }
 

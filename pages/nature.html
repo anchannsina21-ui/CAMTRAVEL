@@ -17,7 +17,7 @@
   </style>
 
 </head>
-<body class="min-h-screen bg-gradient-to-br from-teal-100 to-teal-100 m-0 p-0">
+<body class="min-h-screen bg-teal-200 m-0 p-0">
 
   <!-- Scroll to Top Button (Fixed Position) -->
   <button id="scrollTopBtn" class="fixed bottom-8 right-8 w-12 h-12 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 opacity-0 invisible z-50">
@@ -27,32 +27,60 @@
   </button>
 
   <!--  VIEW 1: CARDS LIST -->
-    
-  <!-- Hero section -->
-  <div id="listView" class="view active bg-gradient-to-br from-teal-100 to-teal-400">
-    <section class="relative h-screen overflow-hidden">
+  <div id="listView" class="view active">
+     <!-- Hero Section -->
+    <section class="text-white relative min-h-screen lg:h-dvh flex items-center overflow-hidden bg-black">
+            
+      <!-- Background Image: Changed h-fit to h-full and added object-center to ensure the temple is always visible -->
+      <img 
+        src="https://cambotours.com/userfiles/thumbs/churning-of-the-ocean-of-milk-in-angkor-wat.jpg" 
+        class="absolute inset-0 w-full h-full object-cover opacity-80 lg:opacity-100"
+        alt="Bayon Temple"
+      />
+      
+      <!-- Improved Glass Layer: Added a darker gradient overlay for better text readability on mobile -->
+      <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/20 to-transparent backdrop-blur-[2px] lg:backdrop-blur-[4px]"></div>
 
-      <!-- Background Image -->
-      <img src="/assets/Angkor Tom.png"
-          alt="Hero"
-          class="absolute inset-0 w-full h-full object-cover transition-transform duration-[8000ms] ease-in-out hover:scale-105">
+      <!-- Right Side Decorative Image: Adjusted positioning to prevent overlapping text on mid-sized screens -->
+      <div class="absolute right-8 md:right-16 top-1/2 -translate-y-1/2 hidden lg:block w-[28vw] max-w-[450px] aspect-[3/4] z-20">
+        <div class="relative w-full h-full rounded-2xl overflow-hidden border border-white/20 shadow-2xl hover:rotate-2 transition-transform duration-700">
+          <img 
+            src="https://i1.wp.com/yatrikaone.com/wp-content/uploads/travel/destination/Cambodia/SiemReap/AngkorWat/BasRelief/SouthGallery/cambodia_angkorwat_SE_heaven_and_hell_2-e1559399462701.jpg?w=1804&ssl=1" 
+            class="w-full h-full object-cover"
+            alt="Cambodian Culture Detail"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+        </div>
+      </div>
 
-      <!-- Dark Overlay -->
-      <div class="absolute inset-0 bg-black/40"></div>
+      <!-- Content Container: Centered on mobile, left-aligned on desktop -->
+      <div class="relative z-30 px-6 sm:px-12 lg:px-24 w-full max-w-7xl mx-auto py-20 lg:py-0">
+        
+        <!-- Heading: Responsive text sizes from 4xl (mobile) to 8xl (desktop) -->
+        <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold leading-[0.9] tracking-tighter mb-6">
+          Discover<br>Cambodia's<br>
+          <span class="bg-gradient-to-r from-teal-400 to-cyan-300 bg-clip-text text-transparent">
+            Rich Culture
+          </span>
+        </h1>
 
-        <!-- Text Content -->
-        <div class="relative z-10 bg-white/10 rounded-2xl h-full flex items-center justify-center text-center text-white ">
-          <div class="max-w-5xl bg-white/10 transition rounded-2xl ">
-              <h1 class="text-5xl md:text-5xl font-bold mb-4 p-6 ">
-                  Discover Cambodia's Rich Culture
-              </h1>
-                <p class="text-lg md:text-xl">
-                    Explore the vibrant traditions, arts, and heritage of Cambodia with us.
-                </p>
-          </div>
-        <div>
+        <!-- Paragraph: Adjusted width to be more readable on mobile -->
+        <p class="text-base sm:text-lg md:text-xl text-white/90 font-light leading-relaxed max-w-sm sm:max-w-md mb-10">
+          Explore the vibrant traditions, ancient arts, and living heritage that make Cambodia a captivating destination.
+        </p>
+
+        <!-- CTA Group: Larger touch targets for mobile users -->
+        <div class="flex flex-wrap items-center gap-4">
+          <a href="#" class="w-full sm:w-auto text-center px-10 py-5 rounded-full bg-gradient-to-r from-teal-600 to-cyan-500 font-bold text-lg shadow-xl shadow-teal-900/40 hover:shadow-teal-500/50 hover:-translate-y-1 transition-all duration-300">
+            Start Exploring
+          </a>
+        </div>
+      </div>
+
+      <!-- Mobile-only subtle bottom fade -->
+      <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black to-transparent lg:hidden"></div>
     </section>
-    
+
 
     <div class="max-w-7xl mx-auto px-6 py-12">
       <h1 class="text-5xl font-bold text-teal-700 text-center mb-12">
@@ -84,16 +112,15 @@
     </div>
 
     <!-- Static data -->
-    <section class="py-20 px-4 sm:px-8 md:px-16">
-
+    <section class="py-20 px-4 sm:px-8 md:px-16 bg-gradient-to-br from-teal-600 to-teal-200">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
           <!-- Left Content -->
           <div class="text-center md:text-left">
-              <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-teal-700 leading-tight">
-                  Discover More Than Just Temples
+              <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight">
+                  Discover More  Than Just Temples 
               </h1>
 
-              <p class="mt-6 text-lg sm:text-xl text-gray-600 leading-relaxed">
+              <p class="mt-6 text-lg sm:text-xl text-white leading-relaxed">
                   Explore breathtaking landscapes, capture unforgettable moments,
                   and relax in the beauty of Cambodia’s cultural heritage.
                   Every corner offers something truly special.
@@ -101,7 +128,7 @@
           </div>
 
           <!-- Right Image -->
-          <div class="relative flex justify-center md:justify-end bg-teal-700 rounded-2xl p-4">
+          <div class="relative flex justify-center md:justify-end bg-gradient-to-br from-teal-100 to-teal-600 rounded-2xl p-4">
 
             <!-- Main Image -->
             <div class="group w-full h-full overflow-hidden rounded-xl ">
@@ -110,21 +137,23 @@
             </div>
           </div>
       </div>
-      
-      <!-- gallery -->
-      <div class="bg-white/30 rounded-2xl py-7 w-full max-w-[1100px] overflow-hidden mt-24 flex justify-center ">
-
-        <div class="carousel-outer overflow-hidden w-full flex " id="carouselOuter">
-          <div class="carousel-track flex gap-3 px-3.5" id="carouselTrack">
-            <!-- Slides injected by JS -->
-          </div>
-        </div>
-      </div>
     </section>
 
+    <!-- gallery -->
+    <div class="bg-white/10 backdrop-blur-md rounded-3xl py-6 md:py-10 w-[95%] lg:w-full max-w-[1100px] overflow-hidden mt-12 mb-12 md:mb-24 md:mt-24 flex justify-center mx-auto border border-white/80 shadow-2xl">
+
+      <!-- Added touch-scroll support for mobile -->
+      <div class="carousel-outer w-full overflow-x-auto md:overflow-hidden scrollbar-hide cursor-grab active:cursor-grabbing" id="carouselOuter">
+        
+        <!-- Added snap-scrolling for a professional mobile feel -->
+        <div class="carousel-track flex gap-4 md:gap-6 px-4 md:px-10 snap-x snap-mandatory flex-nowrap ease-out" id="carouselTrack">
+        </div>
+      </div>
+    </div>
+    
   </div>
   <!-- VIEW 2: DETAIL PAGE -->
-  <div id="detailView" class="view bg-gradient-to-br from-teal-100 to-teal-100">
+  <div id="detailView" class="view bg-gradient-to-br from-teal-100 to-teal-300">
 
     <!-- Back Button -->
     <div class="fixed top-24 left-6 z-50">
@@ -237,7 +266,7 @@
       <!-- 3 Gallery  -->
       <div class="max-w-7xl mx-auto py-6 mt-8">
     
-        <div class="bg-white/90 rounded-2xl p-6 shadow-lg">
+        <div class="bg-white/80 rounded-2xl p-6 shadow-lg">
           <div id="detailGallery" class="group w-full h-full overflow-hidden rounded-xl grid gap-3 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
             <!-- Images go here -->
           </div>
@@ -245,9 +274,8 @@
       </div>
 
       <!-- Suggested Places -->
-      <div class="max-w-7xl mx-auto py-6 mt-8">
+      <div class=" max-w-7xl mx-auto py-6 mt-8">
         <div class="bg-white/80 rounded-2xl p-8 shadow-lg ">
-          <!-- <div class="bg-teal-100 p-4 rounded-2xl pt-4"> -->
             <h3 class="text-2xl font-bold text-slate-800 mb-6">
                 Suggested Places
             </h3>
@@ -256,7 +284,6 @@
             <div id="suggestedGrid" 
                   class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             </div>
-          <!-- </div> -->
         </div>
       </div>
     </div>
