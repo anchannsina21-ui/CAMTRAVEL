@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Discover Cambodia</title>
+<!-- Tailwind Link -->
+<link rel="stylesheet" href="src/output.css">
+
+<style>
+
+.slide{
+transition:opacity 1.2s ease;
+}
+
+.slide img{
+transform:scale(1.1);
+transition:transform 10s ease;
+}
+
+.slide.active img{
+transform:scale(1);
+}
+
+.slide-title{
+opacity:0;
+transform:translateY(14px);
+transition:opacity .7s ease .35s, transform .7s ease .35s;
+}
+
+.slide-desc{
+opacity:0;
+transform:translateY(12px);
+transition:opacity .7s ease .5s, transform .7s ease .5s;
+}
+
+.slide-actions{
+opacity:0;
+transform:translateY(10px);
+transition:opacity .6s ease .65s, transform .6s ease .65s;
+}
+
+.slide.active .slide-title,
+.slide.active .slide-desc,
+.slide.active .slide-actions{
+opacity:1;
+transform:translateY(0);
+}
+
+.dot{
+transition:width .35s ease, background .35s ease;
+}
+
+.dot.active{
+width:24px!important;
+}
+
+</style>
+</head>
+<body class="m-0 p-0">
+  <section id="hero" class="relative w-full overflow-hidden" style="height:100svh; min-height:600px;">
+
+    <div class="absolute top-0 left-0 right-0 h-[2px] z-20 bg-white/10">
+      <div id="progressBar" class="h-full w-0 bg-[#2bbfaf]"></div>
+    </div>
+
+    <div class="absolute bottom-0 left-0 right-0 z-10 flex items-end justify-between px-[7%] pb-9">
+
+      <div class="flex flex-col gap-3">
+
+        <div id="dotsEl" class="flex items-center gap-2"></div>
+
+        <div class="hidden sm:block w-44 h-[1px] bg-white/20 overflow-hidden rounded-full">
+          <div id="progressLine" class="h-full w-0 bg-[#2bbfaf]"></div>
+        </div>
+
+      </div>
+
+      <div class="flex items-center gap-4">
+
+        <span class="text-[0.72rem] tracking-widest text-white/45">
+          <strong id="cur" class="text-white/90 font-medium">01</strong>
+          <span class="mx-1 text-white/25">/</span>
+          <span id="tot">05</span>
+        </span>
+
+        <div class="flex gap-2">
+
+        <button id="prevBtn"
+          class="w-10 h-10 rounded-full bg-white/10 border border-white/20 flex items-center justify-center">
+
+          <svg class="w-[15px] h-[15px] stroke-white fill-none" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <polyline points="15 18 9 12 15 6"/>
+          </svg>
+
+        </button>
+
+        <button id="nextBtn"
+          class="w-10 h-10 rounded-full bg-white/10 border border-white/20 flex items-center justify-center">
+
+          <svg class="w-[15px] h-[15px] stroke-white fill-none" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="/components/index.js"></script>
+  <script src="/components/navbar.js"></script>
+</body>
+</html>
+
