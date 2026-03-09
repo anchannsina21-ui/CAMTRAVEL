@@ -12,6 +12,7 @@ const PLACES = [
     ticketPrice: '$6.50 Adult / $3.00 Child',
     fullDescription: 'The Royal Palace is a complex of buildings which serves as the royal residence of the King of Cambodia. Its full name in the Khmer language is Preah Barom Reachea Veang Chaktomuk Serei Mongkol. The Kings of Cambodia have occupied it since it was built in the 1860s, with the palace constructed after King Norodom relocated the royal capital from Oudong to Phnom Penh in the mid-19th century. The architecture is a stunning display of traditional Khmer design combined with French influences.​​​The Royal Palace is a complex of buildings which serves as the royal residence of the King of Cambodia. Its full name in the Khmer language is Preah Barom Reachea Veang Chaktomuk Serei Mongkol. The Kings of Cambodia have occupied it since it was built in the 1860s, with the palace constructed after King Norodom relocated the royal capital from Oudong to Phnom Penh in the mid-19th century. The architecture is a stunning display of traditional Khmer design combined with French influences.The Royal Palace is a complex of buildings which serves as the royal residence of the King of Cambodia. Its full name in the Khmer language is Preah Barom Reachea Veang Chaktomuk Serei Mongkol. The Kings of Cambodia have occupied it since it was built in the 1860s, with the palace constructed after King Norodom relocated the royal capital from Oudong to Phnom Penh in the mid-19th century. The architecture is a stunning display of traditional Khmer design combined with French influences.​​',
     mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://www.google.com/maps/search/Royal+Palace+Phnom+Penh+Cambodia',
     gallery: [
       'https://cdn.thecrazytourist.com/wp-content/uploads/2018/09/ccimage-shutterstock_142484578.jpg',
       'https://i.pinimg.com/736x/77/d7/78/77d7789e9e8b93b09f20d8af9fe3433c.jpg',
@@ -31,6 +32,7 @@ const PLACES = [
     ticketPrice: '$6.50 Adult / $3.00 Child',
     fullDescription: 'The Royal Palace is a complex of buildings which serves as the royal residence of the King of Cambodia. Its full name in the Khmer language is Preah Barom Reachea Veang Chaktomuk Serei Mongkol. The Kings of Cambodia have occupied it since it was built in the 1860s, with the palace constructed after King Norodom relocated the royal capital from Oudong to Phnom Penh in the mid-19th century. The architecture is a stunning display of traditional Khmer design combined with French influences.The Royal Palace is a complex of buildings which serves as the royal residence of the King of Cambodia. Its full name in the Khmer language is Preah Barom Reachea Veang Chaktomuk Serei Mongkol. The Kings of Cambodia have occupied it since it was built in the 1860s, with the palace constructed after King Norodom relocated the royal capital from Oudong to Phnom Penh in the mid-19th century. The architecture is a stunning display of traditional Khmer design combined with French influences.',
     mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://www.google.com/maps/search/Bayon+Temple+Siem+Reap+Cambodia',
     gallery: [
       'https://cdn.thecollector.com/wp-content/uploads/2024/05/bayon-temples-of-angkor.jpg?width=1200&quality=55',
       'https://cdn.britannica.com/55/122155-050-56389FCC/Bayon-temple-Angkor-Thom-Cambodia.jpg',
@@ -48,7 +50,8 @@ const PLACES = [
     openingHours: '07:30 AM – 5:30 PM',
     ticketPrice: '$37.00 (1-Day Pass)',
     fullDescription: 'Angkor Wat is a temple complex in Cambodia and is the largest religious monument in the world, on a site measuring 162.6 hectares. Originally constructed as a Hindu temple dedicated to the god Vishnu for the Khmer Empire, it was gradually transformed into a Buddhist temple towards the end of the 12th century. It was built by the Khmer King Suryavarman II in the early 12th century in Yaśodharapura as his state temple and eventual mausoleum.',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.1!2d103.867!3d13.4125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://www.google.com/maps/search/Angkor+Wat+Siem+Reap+Cambodia',
     gallery: [
       'https://i0.wp.com/helloangkor.com/wp-content/uploads/2020/12/IMG_20200622_144812-2-1.jpg?w=1200&ssl=1',
       'https://i.pinimg.com/736x/bc/a5/20/bca5208bb8b55842d5717fb7f1693b2a.jpg',
@@ -66,7 +69,8 @@ const PLACES = [
     openingHours: '07:30 AM – 5:30 PM',
     ticketPrice: '$37.00 (1-Day Pass)',
     fullDescription: 'Preah Khan is a temple at Angkor, Cambodia, built in the 12th century for King Jayavarman VII to honor his father. It is located northeast of Angkor Thom and just west of the Jayatataka baray. The temple features winding corridors, carved devatas, and towering trees growing through the ancient stones, creating a mystical atmosphere.',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.8!2d103.871!3d13.462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://www.google.com/maps/search/Preah+Khan+Temple+Siem+Reap+Cambodia',
     gallery: [
       'https://angkordiscovery.com/wp-content/uploads/2024/03/preah-khan-temple-cambodia.jpg',
       'https://live.staticflickr.com/5509/11155353194_01e60637a3_b.jpg',
@@ -84,7 +88,8 @@ const PLACES = [
     openingHours: '07:30 AM – 5:30 PM',
     ticketPrice: '$37.00 (1-Day Pass)',
     fullDescription: 'Ta Prohm is the modern name of a temple near the city of Siem Reap, Cambodia. Built in the Bayon style largely in the late 12th century and early 13th century as a Mahayana Buddhist monastery and university, it was founded by the Khmer King Jayavarman VII. Unlike most Angkorian temples, Ta Prohm has been left in much the same condition in which it was found, with numerous trees and their roots growing over and through the ruins.',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.3!2d103.89!3d13.435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://maps.app.goo.gl/V41twgjRhHdh4tRX8', 
     gallery: [
       'https://images.travelandleisureasia.com/wp-content/uploads/sites/6/2023/11/14132313/Ta-Prohm-temple-inside-Angkor-Wat-complex-Mark-R-Croucher-Shutterstock.jpg',
       'https://toursbyjeeps.com/wp-content/uploads/2021/07/Ta-Phrom7.jpg',
@@ -103,7 +108,8 @@ const PLACES = [
     ticketPrice: '$6.50 Adult / $3.00 Child',
 
     fullDescription: 'The Silver Pagoda is located on the south side of the Royal Palace, Phnom Penh. The official name is Wat Preah Keo Morokat, which means "Temple of the Emerald Crystal Buddha". The vihara houses many national treasures such as gold and jeweled Buddha statues. The floor of the pagoda is made of 5,329 silver tiles and in its center sits a magnificent 17th century emerald and baccarat crystal Buddha.',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7!2d104.924!3d11.564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://maps.app.goo.gl/vEkTeh2xQ6cBrpjU8', 
     gallery: [
       'https://kampatour.com/pic/blog/images/oudong-1.jpg',
       'https://cdn.getyourguide.com/img/location/5a086f1db0512.jpeg/88.jpg',
@@ -121,7 +127,8 @@ const PLACES = [
     openingHours: '07:30 AM – 5:30 PM',
     ticketPrice: '$37.00 (1-Day Pass)',
     fullDescription: 'Banteay Srei is a 10th-century Cambodian temple dedicated to the Hindu god Shiva. Located in the area of Angkor, it lies near the hill of Phnom Dei, 25 km north-east of the main group of temples. Banteay Srei is built largely of red sandstone, a medium that lends itself to the elaborate decorative wall carvings which are still observable today. The buildings themselves are miniature in scale, unusually so when measured by the standards of Angkorian construction.',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.5!2d103.963!3d13.599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://maps.app.goo.gl/bgwD7if2Q43hTGom9', 
     gallery: [
       'https://thumbs.dreamstime.com/b/kampong-thom-cambodia-s-second-largest-province-area-its-capital-named-kampong-thom-picturesque-town-banks-237221889.jpg',
       'https://www.asiakingtravel.com/cuploads/files/little-known-temple-cambodia-7(1).jpg',
@@ -139,7 +146,8 @@ const PLACES = [
     openingHours: '08:00 AM – 5:00 PM',
     ticketPrice: '$5.00 Adult / $3.00 Child',
     fullDescription: 'The National Museum of Cambodia is Cambodia\'s largest museum of cultural history and is the country\'s leading historical and archaeological museum. The museum houses one of the world\'s largest collections of Khmer art, including sculptural, ceramics, bronzes, and ethnographic objects. The museum\'s collection includes over 14,000 items, from prehistoric times to periods before, during and after the Khmer Empire.',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.6!2d104.927!3d11.568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://www.google.com/maps/search/National+Museum+of+Cambodia+Phnom+Penh',
     gallery: [
       'https://leightontravels.com/wp-content/uploads/2021/05/Entrance-gate-National-Museum-of-Cambodia.jpg',
       'https://static.idctravel.com/wp-content/uploads/n/04/National-Museum-of-Cambodia.jpg',
@@ -156,7 +164,8 @@ const PLACES = [
     openingHours: '08:00 AM – 5:00 PM',
     ticketPrice: '$5.00 Adult / $3.00 Child',
     fullDescription: 'The National Museum of Cambodia is Cambodia\'s largest museum of cultural history and is the country\'s leading historical and archaeological museum. The museum houses one of the world\'s largest collections of Khmer art, including sculptural, ceramics, bronzes, and ethnographic objects. The museum\'s collection includes over 14,000 items, from prehistoric times to periods before, during and after the Khmer Empire.',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.6!2d104.927!3d11.568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://www.google.com/maps/search/National+Museum+of+Cambodia+Phnom+Penh',
     gallery: [
       'https://media-cdn.tripadvisor.com/media/photo-s/10/bd/49/14/neak-pean-temple-view.jpg',
       'https://www.angkor-temples-in-cambodia.com/uploads/3/0/0/4/30047791/neak-pean-01-600.jpg',
@@ -173,7 +182,8 @@ const PLACES = [
     openingHours: '08:00 AM – 5:00 PM',
     ticketPrice: '$5.00 Adult / $3.00 Child',
     fullDescription: 'The National Museum of Cambodia is Cambodia\'s largest museum of cultural history and is the country\'s leading historical and archaeological museum. The museum houses one of the world\'s largest collections of Khmer art, including sculptural, ceramics, bronzes, and ethnographic objects. The museum\'s collection includes over 14,000 items, from prehistoric times to periods before, during and after the Khmer Empire.',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.6!2d104.927!3d11.568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://maps.app.goo.gl/wv6w4aFMKsZxmmrk9',
     gallery: [
       'https://angkorwatexplorer.com/wp-content/uploads/2024/04/koh-ker-temple-cambodia-4.jpg',
       'https://i.pinimg.com/736x/c2/c1/25/c2c125631fad6864fa2d494fc750d5ba.jpg',
@@ -190,33 +200,35 @@ const PLACES = [
     openingHours: '08:00 AM – 5:00 PM',
     ticketPrice: '$5.00 Adult / $3.00 Child',
     fullDescription: 'The National Museum of Cambodia is Cambodia\'s largest museum of cultural history and is the country\'s leading historical and archaeological museum. The museum houses one of the world\'s largest collections of Khmer art, including sculptural, ceramics, bronzes, and ethnographic objects. The museum\'s collection includes over 14,000 items, from prehistoric times to periods before, during and after the Khmer Empire.',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.6!2d104.927!3d11.568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://www.google.com/maps/search/National+Museum+of+Cambodia+Phnom+Penh',
     gallery: [
       'https://www.capitoltraveltours.com/wp-content/uploads/2023/08/Beng-Mealea-temple.jpg',
       'https://www.mytravelbuzzg.com/wp-content/uploads/Outlying-Temple-Beng-Mealea.jpg',
       'https://www.indochinavoyages.com/wp-content/uploads/2014/12/beng-mealea-jungle-temple.jpg'
     ]
   },{
-    id: 'national-museum',
-    title: 'National Museum',
-    description: 'Cambodia\'s leading historical and archaeological museum in Phnom Penh.',
-    image: 'https://img.fotocommunity.com/national-museum-of-cambodia-01-89d33bd7-58fa-452d-b5d8-c554d265ddda.jpg?height=1080',
-    views: '1.7K',
-    location: 'Phnom Penh, Cambodia',
-    rating: 4.3,
-    openingHours: '08:00 AM – 5:00 PM',
-    ticketPrice: '$5.00 Adult / $3.00 Child',
-    fullDescription: 'The National Museum of Cambodia is Cambodia\'s largest museum of cultural history and is the country\'s leading historical and archaeological museum. The museum houses one of the world\'s largest collections of Khmer art, including sculptural, ceramics, bronzes, and ethnographic objects. The museum\'s collection includes over 14,000 items, from prehistoric times to periods before, during and after the Khmer Empire.',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.6!2d104.927!3d11.568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    id: 'banteay-srei',
+    title: 'Banteay Srei',
+    description: 'Exquisite pink sandstone temple known for detailed decorative carvings.',
+    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop',
+    views: '2.1K',
+    location: 'Siem Reap, Cambodia',
+    rating: 4.9,
+    openingHours: '07:30 AM – 5:30 PM',
+    ticketPrice: '$37.00 (1-Day Pass)',
+    fullDescription: 'Banteay Srei is a 10th-century Cambodian temple dedicated to the Hindu god Shiva. Built largely of red sandstone which lends itself to elaborate decorative wall carvings which are still observable today.',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.5!2d103.963!3d13.599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    mapUrl: 'https://maps.app.goo.gl/EwQqzrFnjNxCZu489',
     gallery: [
-      'https://leightontravels.com/wp-content/uploads/2021/05/Entrance-gate-National-Museum-of-Cambodia.jpg',
-      'https://static.idctravel.com/wp-content/uploads/n/04/National-Museum-of-Cambodia.jpg',
-      'https://files.intocambodia.org/content/big/d90c3d245d9ef1e4241eea99388fe489.jpg'
+      'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop',
+      'https://images.unsplash.com/photo-1563640343-f5df12f28caa?w=600&h=400&fit=crop',
+      'https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=600&h=400&fit=crop'
     ]
   },
   {
-    id: 'beng-mealea-temple',
-    title: 'Beng Mealea Temple',
+    id: 'phnom-bakheng-temple',
+    title: 'Phnom Bakheng Temple',
     description: 'An ancient temple complex in Cambodia, known for its unique architecture and historical significance.',
     image: 'https://anywhereweroam.com/wp-content/uploads/2024/03/cambodia-travel-guides.jpg',
     views: '1.7K',
@@ -225,15 +237,16 @@ const PLACES = [
     openingHours: '08:00 AM – 5:00 PM',
     ticketPrice: '$5.00 Adult / $3.00 Child',
     fullDescription: 'The National Museum of Cambodia is Cambodia\'s largest museum of cultural history and is the country\'s leading historical and archaeological museum. The museum houses one of the world\'s largest collections of Khmer art, including sculptural, ceramics, bronzes, and ethnographic objects. The museum\'s collection includes over 14,000 items, from prehistoric times to periods before, during and after the Khmer Empire.',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.6!2d104.927!3d11.568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://maps.app.goo.gl/EoqWG4JW3GmR3HuD7',
     gallery: [
       'https://www.capitoltraveltours.com/wp-content/uploads/2023/08/Beng-Mealea-temple.jpg',
       'https://www.mytravelbuzzg.com/wp-content/uploads/Outlying-Temple-Beng-Mealea.jpg',
       'https://www.indochinavoyages.com/wp-content/uploads/2014/12/beng-mealea-jungle-temple.jpg'
     ]
   },{
-    id: 'national-museum',
-    title: 'National Museum',
+    id: 'pre-rup-temple',
+    title: 'Pre Rup Temple',
     description: 'Cambodia\'s leading historical and archaeological museum in Phnom Penh.',
     image: 'https://img.fotocommunity.com/national-museum-of-cambodia-01-89d33bd7-58fa-452d-b5d8-c554d265ddda.jpg?height=1080',
     views: '1.7K',
@@ -242,7 +255,84 @@ const PLACES = [
     openingHours: '08:00 AM – 5:00 PM',
     ticketPrice: '$5.00 Adult / $3.00 Child',
     fullDescription: 'The National Museum of Cambodia is Cambodia\'s largest museum of cultural history and is the country\'s leading historical and archaeological museum. The museum houses one of the world\'s largest collections of Khmer art, including sculptural, ceramics, bronzes, and ethnographic objects. The museum\'s collection includes over 14,000 items, from prehistoric times to periods before, during and after the Khmer Empire.',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.6!2d104.927!3d11.568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://maps.app.goo.gl/FRaeuUZiQ6Se6Azd8',
+    gallery: [
+      'https://leightontravels.com/wp-content/uploads/2021/05/Entrance-gate-National-Museum-of-Cambodia.jpg',
+      'https://static.idctravel.com/wp-content/uploads/n/04/National-Museum-of-Cambodia.jpg',
+      'https://files.intocambodia.org/content/big/d90c3d245d9ef1e4241eea99388fe489.jpg'
+    ]
+  },
+  {
+    id: 'kravan-temple',
+    title: 'Kravan Temple',
+    description: 'Cambodia\'s leading historical and archaeological museum in Phnom Penh.',
+    image: 'https://img.fotocommunity.com/national-museum-of-cambodia-01-89d33bd7-58fa-452d-b5d8-c554d265ddda.jpg?height=1080',
+    views: '1.7K',
+    location: 'Phnom Penh, Cambodia',
+    rating: 4.3,
+    openingHours: '08:00 AM – 5:00 PM',
+    ticketPrice: '$5.00 Adult / $3.00 Child',
+    fullDescription: 'The National Museum of Cambodia is Cambodia\'s largest museum of cultural history and is the country\'s leading historical and archaeological museum. The museum houses one of the world\'s largest collections of Khmer art, including sculptural, ceramics, bronzes, and ethnographic objects. The museum\'s collection includes over 14,000 items, from prehistoric times to periods before, during and after the Khmer Empire.',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://maps.app.goo.gl/ShRcLQxLuGzjtjVaA',
+    gallery: [
+      'https://leightontravels.com/wp-content/uploads/2021/05/Entrance-gate-National-Museum-of-Cambodia.jpg',
+      'https://static.idctravel.com/wp-content/uploads/n/04/National-Museum-of-Cambodia.jpg',
+      'https://files.intocambodia.org/content/big/d90c3d245d9ef1e4241eea99388fe489.jpg'
+    ]
+  },
+  {
+    id: 'banteay-kdei-temple',
+    title: 'Banteay Kdei Temple',
+    description: 'Cambodia\'s leading historical and archaeological museum in Phnom Penh.',
+    image: 'https://img.fotocommunity.com/national-museum-of-cambodia-01-89d33bd7-58fa-452d-b5d8-c554d265ddda.jpg?height=1080',
+    views: '1.7K',
+    location: 'Phnom Penh, Cambodia',
+    rating: 4.3,
+    openingHours: '08:00 AM – 5:00 PM',
+    ticketPrice: '$5.00 Adult / $3.00 Child',
+    fullDescription: 'The National Museum of Cambodia is Cambodia\'s largest museum of cultural history and is the country\'s leading historical and archaeological museum. The museum houses one of the world\'s largest collections of Khmer art, including sculptural, ceramics, bronzes, and ethnographic objects. The museum\'s collection includes over 14,000 items, from prehistoric times to periods before, during and after the Khmer Empire.',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://maps.app.goo.gl/DMz7DNhvmjk8PJoX6',
+    gallery: [
+      'https://leightontravels.com/wp-content/uploads/2021/05/Entrance-gate-National-Museum-of-Cambodia.jpg',
+      'https://static.idctravel.com/wp-content/uploads/n/04/National-Museum-of-Cambodia.jpg',
+      'https://files.intocambodia.org/content/big/d90c3d245d9ef1e4241eea99388fe489.jpg'
+    ]
+  },
+  {
+    id: 'tuol-sleng-genocide-museum',
+    title: 'Tuol Sleng Genocide Museum',
+    description: 'Cambodia\'s leading historical and archaeological museum in Phnom Penh.',
+    image: 'https://img.fotocommunity.com/national-museum-of-cambodia-01-89d33bd7-58fa-452d-b5d8-c554d265ddda.jpg?height=1080',
+    views: '1.7K',
+    location: 'Phnom Penh, Cambodia',
+    rating: 4.3,
+    openingHours: '08:00 AM – 5:00 PM',
+    ticketPrice: '$5.00 Adult / $3.00 Child',
+    fullDescription: 'The National Museum of Cambodia is Cambodia\'s largest museum of cultural history and is the country\'s leading historical and archaeological museum. The museum houses one of the world\'s largest collections of Khmer art, including sculptural, ceramics, bronzes, and ethnographic objects. The museum\'s collection includes over 14,000 items, from prehistoric times to periods before, during and after the Khmer Empire.',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://maps.app.goo.gl/WjF5LCPAoFLRW49j7',
+    gallery: [
+      'https://leightontravels.com/wp-content/uploads/2021/05/Entrance-gate-National-Museum-of-Cambodia.jpg',
+      'https://static.idctravel.com/wp-content/uploads/n/04/National-Museum-of-Cambodia.jpg',
+      'https://files.intocambodia.org/content/big/d90c3d245d9ef1e4241eea99388fe489.jpg'
+    ]
+  },
+  {
+    id: 'choeung-keong-killing-fields-museum',
+    title: 'Choeung Keong Killing Fields Museum',
+    description: 'Cambodia\'s leading historical and archaeological museum in Phnom Penh.',
+    image: 'https://img.fotocommunity.com/national-museum-of-cambodia-01-89d33bd7-58fa-452d-b5d8-c554d265ddda.jpg?height=1080',
+    views: '1.7K',
+    location: 'Phnom Penh, Cambodia',
+    rating: 4.3,
+    openingHours: '08:00 AM – 5:00 PM',
+    ticketPrice: '$5.00 Adult / $3.00 Child',
+    fullDescription: 'The National Museum of Cambodia is Cambodia\'s largest museum of cultural history and is the country\'s leading historical and archaeological museum. The museum houses one of the world\'s largest collections of Khmer art, including sculptural, ceramics, bronzes, and ethnographic objects. The museum\'s collection includes over 14,000 items, from prehistoric times to periods before, during and after the Khmer Empire.',
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+    mapUrl: 'https://maps.app.goo.gl/Wtr5bqaovZnfGwbm7',
     gallery: [
       'https://leightontravels.com/wp-content/uploads/2021/05/Entrance-gate-National-Museum-of-Cambodia.jpg',
       'https://static.idctravel.com/wp-content/uploads/n/04/National-Museum-of-Cambodia.jpg',
@@ -400,10 +490,21 @@ function showDetail(placeId) {
     <img src="${img}" class="w-[400px] h-[300px] object-cover shadow-2xl rounded-xl hover:scale-105 transition-transform duration-500 cursor-pointer">
   `).join('');
 
-  // Map
-  document.getElementById('detailMapContainer').innerHTML = `
-    <iframe src="${place.mapEmbed}" width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy"></iframe>
+  // Map iframe view of map
+  const mapContainer = document.getElementById('detailMapContainer');
+  mapContainer.innerHTML = `
+    <iframe 
+      src="${place.mapEmbed}" 
+      width="100%" 
+      height="100%" 
+      style="border:0;" 
+      allowfullscreen 
+      loading="lazy">
+    </iframe>
   `;
+
+  // Set Google Maps link URL
+  document.getElementById('detailMapLink').href = place.mapUrl;
 
   // Switch view
   document.getElementById('listView').classList.remove('active');
