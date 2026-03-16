@@ -18,6 +18,22 @@ const PLACES = [
       'https://tourismcambodia.org/storage/uploads/contents/entryform/ministry-of-tourism-cambodia-2024-07-01-02-52-19am1719802341-12801.jpg',
       'https://tourismcambodia.org/storage/uploads/contents/entryform/ministry-of-tourism-cambodia-2024-07-01-02-52-19am1719802341-12802.jpg'
     ],
+      travelSchedule: {
+      images: [
+        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
+        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+      ],
+      departureSchedule: [
+        { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
+        { label: 'Midday',    time: '11:30 AM – 12:30 PM' },
+        { label: 'Afternoon', time: '2:30 PM – 3:30 PM' }
+      ],
+      returnSchedule: [
+        { label: 'Morning',   time: '9:00 AM – 10:00 AM' },
+        { label: 'Midday',    time: '12:30 PM – 1:30 PM' },
+        { label: 'Afternoon', time: '3:30 PM – 5:00 PM' }
+      ]
+    }
   },
   {
     id: 'koh-rong',
@@ -37,7 +53,23 @@ const PLACES = [
       'https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/472883025_10221776475720436_6132670763520324626_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e06c5d&_nc_eui2=AeENj_ZV3k23m7pQ7MmUZfPyjnHGXcUnS5GOccZdxSdLkTy9_iWYoTu8gQHY1kqZ_ndk5eZL_G_Cy47RpqW6uXHJ&_nc_ohc=sVkc6CPyaWkQ7kNvwFZGXKl&_nc_oc=AdmlA-vN4T3wqP5-369EZgeQ96i3OKNKNsHR53oSocq2CToQrmvrX5N4NZmZc2Rqk0M&_nc_zt=23&_nc_ht=scontent.fpnh11-1.fna&_nc_gid=EM4jHNPabKdWowCJ0Qtgcg&_nc_ss=8&oh=00_Afw8nN1SXKPR8rAx6KEBt0VChXvvuzuR50rKCVFO1ZAt-A&oe=69B86135',
       'https://www.khmnow.com/wp-content/uploads/2018/10/2-42.jpg',
       'https://oss2.tnaot.com/tnaot/image/2020/09/27/c400dac331604fa8a836c9fbb85f5014.jpg'
-    ]
+    ],
+    travelSchedule: {
+      images: [
+        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
+        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+      ],
+      departureSchedule: [
+        { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
+        { label: 'Midday',    time: '11:30 AM – 12:30 PM' },
+        { label: 'Afternoon', time: '2:30 PM – 3:30 PM' }
+      ],
+      returnSchedule: [
+        { label: 'Morning',   time: '9:00 AM – 10:00 AM' },
+        { label: 'Midday',    time: '12:30 PM – 1:30 PM' },
+        { label: 'Afternoon', time: '3:30 PM – 5:00 PM' }
+      ]
+    }
   },
   {
     id: 'kohkong-krav',
@@ -56,7 +88,23 @@ const PLACES = [
       'https://asset.tovtrip.com/uploads/0000/107/2023/03/03/269692993-4457020704421420-6781369616437834673-n-1.jpeg',
       'https://scontent.fpnh5-1.fna.fbcdn.net/v/t39.30808-6/481141831_948673567382605_4926830463063511524_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeHmse5CZR5kKOMXb4jTrwVB5QwQzaUjViflDBDNpSNWJ4oyT5TCoXfA7vDsuw1OqxGu17mtcWmapcu-NB8DkIem&_nc_ohc=jURekqnNqCQQ7kNvwHmN_7h&_nc_oc=AdnF-noUE5V4mWok-y5rGdd1ddiXJq3Qiq4BxTPK9V8uOAtGYuI6sRXm7lStMVntf4E&_nc_zt=23&_nc_ht=scontent.fpnh5-1.fna&_nc_gid=2vikpJXFKnUaul-MHCtpqw&_nc_ss=8&oh=00_AfwEvlSxPHbfKkxIIJVSCvtGBvoclV_hfsph7qGsO1OCyQ&oe=69BCB66D',
       'https://scontent.fpnh5-4.fna.fbcdn.net/v/t39.30808-6/481073024_948673494049279_7569038287555119247_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeF5JdcTqmwEO03bAptl1H65ZJHjKQjpEZxkkeMpCOkRnK0zsh5hpy-QBc0_YJECVjtFfucVyuYSfoZkVK7gI2Go&_nc_ohc=itHSa_j6kj4Q7kNvwEMKu-U&_nc_oc=Adk42sQBUvDh0-hNvqf28_Wc-0v5YQOGHAnEu7k26clIs8e1EJrOprbUAvsSX5Y1XhM&_nc_zt=23&_nc_ht=scontent.fpnh5-4.fna&_nc_gid=xAckOkXiV--tL0AaR7P6uQ&_nc_ss=8&oh=00_AfwSS7aM-105Qqz_jsfN3XYLH6WDQbp76dv8vnwAQfAIoA&oe=69BCEA31'
-    ]
+    ],
+    travelSchedule: {
+      images: [
+        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
+        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+      ],
+      departureSchedule: [
+        { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
+        { label: 'Midday',    time: '11:30 AM – 12:30 PM' },
+        { label: 'Afternoon', time: '2:30 PM – 3:30 PM' }
+      ],
+      returnSchedule: [
+        { label: 'Morning',   time: '9:00 AM – 10:00 AM' },
+        { label: 'Midday',    time: '12:30 PM – 1:30 PM' },
+        { label: 'Afternoon', time: '3:30 PM – 5:00 PM' }
+      ]
+    }
   },
   {
     id: 'koh-ampil',
@@ -75,7 +123,23 @@ const PLACES = [
       'https://scontent.fpnh5-5.fna.fbcdn.net/v/t39.30808-6/605118096_122305974542009507_2315795576109721200_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeEMKs-vQOcSyXity-lOx6BWkAa_ROMuEDGQBr9E4y4QMfa2a0nRFZCTaipnkXfrtrSL2PnyoWAqKDxJwhu7PBK3&_nc_ohc=wYJl2asqrmAQ7kNvwH3V7-A&_nc_oc=AdmfZcmdJil1NnxH6NLtQIFxLUIfoAcEcfJBkMIUOwfcATRni_VNry_Fa9HAtSFHHyQ&_nc_zt=23&_nc_ht=scontent.fpnh5-5.fna&_nc_gid=UCo6usT71VlAEs73i6tD3A&_nc_ss=8&oh=00_AfzYrJKZkAiOl58xNwm6NFFdjDjAJRs2qy-E944zqAXfcQ&oe=69BCDC48',
       'https://scontent.fpnh5-6.fna.fbcdn.net/v/t39.30808-6/605333407_122305974590009507_9115527202081575279_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeGrVNWU7T_MjmkmJDk7t_OUr-N4wGjzioiv43jAaPOKiPmaUBiAryCTPnOrYEm00092Qrtw9rpza83aHT-PzF8C&_nc_ohc=Y6PU-WDGZS0Q7kNvwGKbypC&_nc_oc=AdnsYGv_PvuhIqbYvSm_rxcTed5QD0xxGxA0FsoXjDkDRbsFB-u_IlcKu2PgB7XuRTM&_nc_zt=23&_nc_ht=scontent.fpnh5-6.fna&_nc_gid=KZj46jm-GNkGN82nd4IufA&_nc_ss=8&oh=00_Afyccxs9xCYKMu2TvEaqtEkXS4I_YjTAfVcjmmZlmd1oww&oe=69BCC8D6',
       'https://scontent.fpnh5-2.fna.fbcdn.net/v/t39.30808-6/605543351_122305974152009507_8968857298006124072_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeETFhl9UwVaVJHJK6X1Smg4FyvdtCSA2t8XK920JIDa31HICC0XkVP4Fe0PTBbPWC8jivDdwdg3hRWsCn-qoRpd&_nc_ohc=67xptnIKsnAQ7kNvwE-yxny&_nc_oc=Adk45IFmHJeLck4o22AAiN0-TReQZE6X8GfAFecVY4VDPtvwwaDkwaHfIzQMXzU6qxs&_nc_zt=23&_nc_ht=scontent.fpnh5-2.fna&_nc_gid=ECqNgYUof897e2PVBlBdUQ&_nc_ss=8&oh=00_Afx1Qv7mkg4ALn4i_Km4CbGKn1DDVdlqYs4AwIE87riQZw&oe=69BCB8F6'
-    ]
+    ],
+    travelSchedule: {
+      images: [
+        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
+        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+      ],
+      departureSchedule: [
+        { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
+        { label: 'Midday',    time: '11:30 AM – 12:30 PM' },
+        { label: 'Afternoon', time: '2:30 PM – 3:30 PM' }
+      ],
+      returnSchedule: [
+        { label: 'Morning',   time: '9:00 AM – 10:00 AM' },
+        { label: 'Midday',    time: '12:30 PM – 1:30 PM' },
+        { label: 'Afternoon', time: '3:30 PM – 5:00 PM' }
+      ]
+    }
   },
   {
     id: 'chhay-kpous-waterfall',
@@ -113,7 +177,23 @@ const PLACES = [
       'https://huunghivietnamcampuchia.thoidai.com.vn/stores/news_dataimages/huunghivietnamcampuchia-thoidai-com-vn/062020/15/19/%E1%9E%80-%E1%9E%9F-%E1%9E%8A-%E1%9E%85-%E1%9E%87-%E1%9E%9A%E1%9E%98%E1%9E%8E-%E1%9E%99%E1%9E%8A-%E1%9E%8B-%E1%9E%93-%E1%9E%92%E1%9E%98-%E1%9E%98%E1%9E%87-%E1%9E%8F-%E1%9E%93-%E1%9E%84-%E1%9E%94-%E1%9E%9A%E1%9E%87-%E1%9E%80-20-.2015.jpg',
       'https://huunghivietnamcampuchia.thoidai.com.vn/stores/news_dataimages/huunghivietnamcampuchia-thoidai-com-vn/062020/15/19/%E1%9E%80-%E1%9E%9F-%E1%9E%8A-%E1%9E%85-%E1%9E%87-%E1%9E%9A%E1%9E%98%E1%9E%8E-%E1%9E%99%E1%9E%8A-%E1%9E%8B-%E1%9E%93-%E1%9E%92%E1%9E%98-%E1%9E%98%E1%9E%87-%E1%9E%8F-%E1%9E%93-%E1%9E%84-%E1%9E%94-%E1%9E%9A%E1%9E%87-%E1%9E%80-20-.3992.jpg',
       'https://huunghivietnamcampuchia.thoidai.com.vn/stores/news_dataimages/huunghivietnamcampuchia-thoidai-com-vn/062020/15/19/%E1%9E%80-%E1%9E%9F-%E1%9E%8A-%E1%9E%85-%E1%9E%87-%E1%9E%9A%E1%9E%98%E1%9E%8E-%E1%9E%99%E1%9E%8A-%E1%9E%8B-%E1%9E%93-%E1%9E%92%E1%9E%98-%E1%9E%98%E1%9E%87-%E1%9E%8F-%E1%9E%93-%E1%9E%84-%E1%9E%94-%E1%9E%9A%E1%9E%87-%E1%9E%80-20-.0778.jpg'
-    ]
+    ],
+    travelSchedule: {
+      images: [
+        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
+        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+      ],
+      departureSchedule: [
+        { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
+        { label: 'Midday',    time: '11:30 AM – 12:30 PM' },
+        { label: 'Afternoon', time: '2:30 PM – 3:30 PM' }
+      ],
+      returnSchedule: [
+        { label: 'Morning',   time: '9:00 AM – 10:00 AM' },
+        { label: 'Midday',    time: '12:30 PM – 1:30 PM' },
+        { label: 'Afternoon', time: '3:30 PM – 5:00 PM' }
+      ]
+    }
   },
   {
     id: 'koh-han',
@@ -307,7 +387,7 @@ function renderCards() {
                 animate-fadeUp" style="animation-delay:${index * 40}ms">
       <div class="relative">
         <img src="${place.image}" alt="${place.title}"
-          class="w-full h-36 object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out">
+          class="w-full h-40 object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out">
         <button onclick="toggleLike(${index})"
           class="absolute top-4 right-4 w-10 h-10 bg-white/40 rounded-full flex items-center justify-center
                  cursor-pointer hover:scale-110 hover:bg-black/30 transition-transform duration-200">
@@ -415,7 +495,10 @@ function showDetail(placeId) {
   // Gallery
   const galleryEl = document.getElementById('detailGallery');
   galleryEl.innerHTML = place.gallery.map(img => `
-    <img src="${img}" class="w-[400px] h-[300px] object-cover shadow-2xl rounded-xl hover:scale-105 transition-transform duration-500 cursor-pointer">
+    <div class="w-[380px] h-[280px] overflow-hidden rounded-xl shadow shrink-0">
+    <img src="${img}" 
+      class="w-full h-full object-cover hover:scale-110 transition-transform duration-700 cursor-pointer">
+    </div>
   `).join('');
 
   // Map iframe view of map
@@ -458,14 +541,14 @@ function renderTravelSchedule(place) {
 
   container.style.display = 'block';
   container.innerHTML = `
-    <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col md:flex-row gap-8">
-      <div class="flex flex-col gap-4 md:w-[700px]">
-        <h2 class="text-2xl font-bold text-slate-800">Travel Schedule Boats</h2>
+    <div class="bg-white/80 rounded-2xl shadow-md mt-4 p-8 flex flex-col md:flex-row gap-8">
+      <div class="flex flex-col gap-4 md:w-[800px]">
+        <h2 class="text-2xl font-bold text-teal-600 mb-6 mt-2">Travel Schedule Boats</h2>
         <div class="flex gap-3">
           ${images.map(img => `
-            <div class="w-1/2 overflow-hidden rounded-xl shadow">
+            <div class="w-full overflow-hidden rounded-xl shadow">
               <img src="${img}" 
-                class="w-full h-40 sm:h-48 object-cover 
+                class="w-full h-40 sm:h-52 object-cover 
                       hover:scale-110 transition-transform duration-700 cursor-pointer" />
             </div>
           `).join('')}

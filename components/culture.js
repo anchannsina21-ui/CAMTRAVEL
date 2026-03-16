@@ -486,8 +486,12 @@ function showDetail(placeId) {
   // Gallery
   const galleryEl = document.getElementById('detailGallery');
   galleryEl.innerHTML = place.gallery.map(img => `
-    <img src="${img}" class="w-[400px] h-[300px] object-cover shadow-2xl rounded-xl hover:scale-105 transition-transform duration-500 cursor-pointer">
-  `).join('');
+  <div class="w-[380px] h-[280px] overflow-hidden rounded-xl shadow shrink-0">
+    <img src="${img}" 
+      class="w-full h-full object-cover 
+             hover:scale-110 transition-transform duration-700 cursor-pointer">
+  </div>
+`).join('');
 
   // Map iframe view of map
   const mapContainer = document.getElementById('detailMapContainer');

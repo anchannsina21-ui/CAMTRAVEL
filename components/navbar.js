@@ -66,7 +66,6 @@
           </div>
         </li>
 
-        <li><a href="#" class="text-white font-semibold text-[15px] no-underline hover:text-green-200 transition">Review</a></li>
         <li><a href="../pages/about.html" class="text-white font-semibold text-[15px] no-underline hover:text-green-200 transition">About Us</a></li>
         <li><a href="../pages/contact.html" class="text-white font-semibold text-[15px] no-underline hover:text-green-200 transition">Contact</a></li>
       </ul>
@@ -131,7 +130,6 @@
         </div>
       </div>
 
-      <a href="#" class="text-white font-semibold text-sm no-underline hover:text-green-200 transition-colors">Review</a>
       <a href="../pages/about.html" class="text-white font-semibold text-sm no-underline hover:text-green-200 transition-colors">About Us</a>
       <a href="../pages/contact.html" class="text-white font-semibold text-sm no-underline hover:text-green-200 transition-colors">Contact</a>
 
