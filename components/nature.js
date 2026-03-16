@@ -1,23 +1,40 @@
 // PLACE DATA
 const PLACES = [
   {
-    id: 'royal-palace',
-    title: 'Royal Palace',
-    description: 'The Royal Palace serves as the official residence of the King of Cambodia, showcasing exquisite Khmer architectural design.',
-    image: 'https://i.pinimg.com/1200x/85/0d/cd/850dcd5681e331f129f30080831511af.jpg',
-    views: '2.2K',
-    location: 'Phnom Penh, Cambodia',
-    rating: 4.5,
-    openingHours: '07:30 – 11:00 AM & 2:00 – 5:00 PM',
-    ticketPrice: '$6.50 Adult / $3.00 Child',
-    fullDescription: 'The Royal Palace is a complex of buildings which serves as the royal residence of the King of Cambodia. Its full name in the Khmer language is Preah Barom Reachea Veang Chaktomuk Serei Mongkol. The Kings of Cambodia have occupied it since it was built in the 1860s, with the palace constructed after King Norodom relocated the royal capital from Oudong to Phnom Penh in the mid-19th century. The architecture is a stunning display of traditional Khmer design combined with French influences.​​​The Royal Palace is a complex of buildings which serves as the royal residence of the King of Cambodia. Its full name in the Khmer language is Preah Barom Reachea Veang Chaktomuk Serei Mongkol. The Kings of Cambodia have occupied it since it was built in the 1860s, with the palace constructed after King Norodom relocated the royal capital from Oudong to Phnom Penh in the mid-19th century. The architecture is a stunning display of traditional Khmer design combined with French influences.The Royal Palace is a complex of buildings which serves as the royal residence of the King of Cambodia. Its full name in the Khmer language is Preah Barom Reachea Veang Chaktomuk Serei Mongkol. The Kings of Cambodia have occupied it since it was built in the 1860s, with the palace constructed after King Norodom relocated the royal capital from Oudong to Phnom Penh in the mid-19th century. The architecture is a stunning display of traditional Khmer design combined with French influences.​​',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
-    gallery: [
-      'https://cdn.thecrazytourist.com/wp-content/uploads/2018/09/ccimage-shutterstock_142484578.jpg',
-      'https://i.pinimg.com/736x/77/d7/78/77d7789e9e8b93b09f20d8af9fe3433c.jpg',
-      'https://topmekongcruises.com/uploads/royal_palace_21.jpg'
+  id: 'national-museum',
+  title: 'National Museum',
+  description: 'Cambodia\'s leading historical and archaeological museum in Phnom Penh.',
+  image: 'https://img.fotocommunity.com/national-museum-of-cambodia-01-89d33bd7-58fa-452d-b5d8-c554d265ddda.jpg?height=1080',
+  views: '1.7K',
+  location: 'Phnom Penh, Cambodia',
+  rating: 4.3,
+  openingHours: '08:00 AM – 5:00 PM',
+  ticketPrice: '$5.00 Adult / $3.00 Child',
+  fullDescription: 'The National Museum of Cambodia is Cambodia\'s largest museum of cultural history and is the country\'s leading historical and archaeological museum. The museum houses one of the world\'s largest collections of Khmer art, including sculptural, ceramics, bronzes, and ethnographic objects. The museum\'s collection includes over 14,000 items, from prehistoric times to periods before, during and after the Khmer Empire.',
+  mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.6!2d104.927!3d11.568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
+  gallery: [
+    'https://leightontravels.com/wp-content/uploads/2021/05/Entrance-gate-National-Museum-of-Cambodia.jpg',
+    'https://static.idctravel.com/wp-content/uploads/n/04/National-Museum-of-Cambodia.jpg',
+    'https://files.intocambodia.org/content/big/d90c3d245d9ef1e4241eea99388fe489.jpg'
+  ],
+  // Added travel schedule
+  travelSchedule: {
+    images: [
+      'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
+      'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+    ],
+    departureSchedule: [
+      { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
+      { label: 'Midday',    time: '11:30 AM – 12:30 PM' },
+      { label: 'Afternoon', time: '2:30 PM – 3:30 PM' }
+    ],
+    returnSchedule: [
+      { label: 'Morning',   time: '9:00 AM – 10:00 AM' },
+      { label: 'Midday',    time: '12:30 PM – 1:30 PM' },
+      { label: 'Afternoon', time: '3:30 PM – 5:00 PM' }
     ]
-  },
+  }
+},
   {
     id: 'bayon-temple',
     title: 'Bayon Temple',
@@ -409,10 +426,61 @@ function showDetail(placeId) {
   document.getElementById('listView').classList.remove('active');
   document.getElementById('detailView').classList.add('active');
 
+  // Render Travel Schedule
+  renderTravelSchedule(place);
+
   // Render suggested places
   renderSuggestedPlaces(placeId);
 
   window.scrollTo(0, 0);
+}
+
+function renderTravelSchedule(place) {
+  const container = document.getElementById('travelScheduleSection');
+  if (!container || !place.travelSchedule) {
+    if (container) container.style.display = 'none';
+    return;
+  }
+
+  const { images, departureSchedule, returnSchedule } = place.travelSchedule;
+
+  container.style.display = 'block';
+  container.innerHTML = `
+    <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col md:flex-row gap-8">
+      <div class="flex flex-col gap-4 md:w-[700px]">
+        <h2 class="text-2xl font-bold text-slate-800">Travel Schedule Boats</h2>
+        <div class="flex gap-3">
+          ${images.map(img => `
+            <div class="w-1/2 overflow-hidden rounded-xl shadow">
+              <img src="${img}" 
+                class="w-full h-40 sm:h-48 object-cover 
+                      hover:scale-110 transition-transform duration-700 cursor-pointer" />
+            </div>
+          `).join('')}
+        </div>
+      </div>
+      <div class="md:w-1/2 bg-teal-50 rounded-xl p-5">
+        <p class="text-teal-700 font-semibold mb-2">Operate several times per day as follows:</p>
+        <ul class="space-y-1 mb-4">
+          ${departureSchedule.map(s => `
+            <li class="flex items-center gap-2 text-teal-600">
+              <span class="w-2 h-2 bg-teal-500 rounded-full inline-block"></span>
+              <span><strong>${s.label}:</strong> ${s.time}</span>
+            </li>
+          `).join('')}
+        </ul>
+        <p class="text-teal-700 font-semibold mb-2">Return Schedule</p>
+        <ul class="space-y-1">
+          ${returnSchedule.map(s => `
+            <li class="flex items-center gap-2 text-teal-600">
+              <span class="w-2 h-2 bg-teal-500 rounded-full inline-block"></span>
+              <span><strong>${s.label}:</strong> ${s.time}</span>
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+    </div>
+  `;
 }
 
 // SUGGESTED PLACES — shows 4 cards AFTER the current one, wraps around
@@ -509,26 +577,6 @@ function buildStars(rating) {
 
 const rating = 4.2; // example rating
 document.getElementById('ratingContainer').innerHTML = buildStars(rating);
-
-// Scroll to Top Button
-const scrollTopBtn = document.getElementById("scrollTopBtn");
-
-window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
-        scrollTopBtn.classList.remove("opacity-0", "invisible");
-        scrollTopBtn.classList.add("opacity-100", "visible");
-    } else {
-        scrollTopBtn.classList.add("opacity-0", "invisible");
-        scrollTopBtn.classList.remove("opacity-100", "visible");
-    }
-});
-
-scrollTopBtn.addEventListener("click", () => {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-});
 
 // INITIALIZE
 document.addEventListener('DOMContentLoaded', () => {

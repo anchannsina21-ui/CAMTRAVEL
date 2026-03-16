@@ -60,9 +60,9 @@
           </button>
           <div id="dest-panel"
             class="hidden drop-anim absolute top-[calc(100%+14px)] left-0 bg-white rounded-2xl shadow-2xl py-2 min-w-[190px] z-50">
-            <a href="../pages/culture.html" class="flex items-center gap-3 px-5 py-3 text-gray-700 font-semibold text-sm no-underline hover:bg-teal-50 hover:text-teal-600 transition border-b border-gray-100"> Culture</a>
-            <a href="../pages/nature.html" class="flex items-center gap-3 px-5 py-3 text-gray-700 font-semibold text-sm no-underline hover:bg-teal-50 hover:text-teal-600 transition border-b border-gray-100"> Nature</a>
-            <a href="../pages/recreation.html" class="flex items-center gap-3 px-5 py-3 text-gray-700 font-semibold text-sm no-underline hover:bg-teal-50 hover:text-teal-600 transition"> Recreation</a>
+            <a href="../pages/culture.html" class="flex items-center gap-3 px-5 py-3 text-gray-700 font-semibold text-sm no-underline hover:bg-teal-50 hover:text-teal-600 rounded-2xl transition border-b border-gray-100"> Culture</a>
+            <a href="../pages/nature.html" class="flex items-center gap-3 px-5 py-3 text-gray-700 font-semibold text-sm no-underline hover:bg-teal-50 hover:text-teal-600 rounded-2xl transition border-b border-gray-100"> Nature</a>
+            <a href="../pages/recreation.html" class="flex items-center gap-3 px-5 py-3 text-gray-700 font-semibold text-sm no-underline hover:bg-teal-50 hover:text-teal-600 rounded-2xl transition"> Recreation</a>
           </div>
         </li>
 
@@ -77,7 +77,7 @@
         <!-- Language Dropdown (desktop only) -->
         <div class="relative hidden md:block" id="lang-wrap">
           <button id="lang-btn"
-            class="text-white font-semibold text-[15px] bg-transparent border-0 cursor-pointer flex items-center gap-2 hover:text-green-200 transition-colors p-0"
+            class="text-white rounded-2xl px-2 py-2 font-semibold text-[15px] bg-transparent border-0 cursor-pointer flex items-center gap-2 hover:bg-teal-400 transition-colors p-0"
             aria-haspopup="true" aria-expanded="false">
             <img src="https://flagcdn.com/w20/gb.png" alt="EN" class="w-5 rounded-sm shadow"/>
             English
@@ -85,10 +85,10 @@
           </button>
           <div id="lang-panel"
             class="hidden drop-anim absolute top-[calc(100%+14px)] right-0 bg-white rounded-2xl shadow-2xl py-2 min-w-[160px] z-50">
-            <a href="#" class="flex items-center gap-3 px-5 py-3 text-gray-700 font-semibold text-sm no-underline hover:bg-teal-50 hover:text-teal-600 transition-colors border-b border-gray-100">
+            <a href="#" class="flex items-center gap-3 px-5 py-3 text-gray-700 font-semibold text-sm no-underline hover:bg-teal-50 hover:text-teal-600 rounded-2xl transition-colors border-b border-gray-100">
               <img src="https://flagcdn.com/w20/cn.png" alt="CN" class="w-5 rounded-sm shadow"/> CHINA
             </a>
-            <a href="#" class="flex items-center gap-3 px-5 py-3 text-gray-700 font-semibold text-sm no-underline hover:bg-teal-50 hover:text-teal-600 transition-colors">
+            <a href="#" class="flex items-center gap-3 px-5 py-3 text-gray-700 font-semibold text-sm no-underline hover:bg-teal-50 hover:text-teal-600 rounded-2xl transition-colors">
               <img src="https://flagcdn.com/w20/kh.png" alt="KH" class="w-5 rounded-sm shadow"/> KHMER
             </a>
           </div>
@@ -116,7 +116,7 @@
     <!-- Mobile Menu -->
     <div id="mobile-menu"
       class="hidden md:hidden mt-2 bg-[#2aab93] rounded-2xl shadow-xl px-5 py-4 flex flex-col gap-3">
-      <a href="#" class="text-white font-semibold text-sm no-underline hover:text-green-200 transition-colors">Home</a>
+      <a href="/index.html" class="text-white font-semibold text-sm no-underline hover:text-green-200 transition-colors">Home</a>
 
       <!-- Mobile Destination -->
       <div>
@@ -127,7 +127,7 @@
         <div id="mobile-dest-panel" class="hidden flex flex-col gap-2 pl-4 mt-2">
           <a href="../pages/culture.html" class="text-green-100 text-sm font-semibold no-underline hover:text-white transition-colors"> Culture</a>
           <a href="../pages/nature.html" class="text-green-100 text-sm font-semibold no-underline hover:text-white transition-colors"> Nature</a>
-          <a href="../pages/recreation.thml" class="text-green-100 text-sm font-semibold no-underline hover:text-white transition-colors"> Recreation</a>
+          <a href="../pages/recreation.html" class="text-green-100 text-sm font-semibold no-underline hover:text-white transition-colors"> Recreation</a>
         </div>
       </div>
 
@@ -146,7 +146,7 @@
   // Insert at top of body
   document.body.insertBefore(nav, document.body.firstChild);
 
-  // ── Dropdown Logic ──────────────────────────────────────────────────────────
+  // Dropdown Logic 
 
   function togglePanel(panelId, arrowId, btnId) {
     const panel = document.getElementById(panelId);
