@@ -1,17 +1,17 @@
 const slides = [
     {
-    img: "https://www.hotel-boutique.it/wp-content/uploads/2022/12/29-1.jpg",
-    title: "Zannier Hotels Phum Baitang",
+    img: " https://images.trvl-media.com/media/content/shared/images/travelguides/Siem-Reap-2975-desktopRetina.jpg",
+    title: "Angkor Wat Temple",
     desc: "Zannier Hotels Phum Baitang is a luxury resort in Siem Reap, Cambodia, featuring traditional Khmer-style villas, lush tropical gardens, and relaxing swimming pools for an elegant retreat."
     },
     {
-        img: "https://a.veronikasadventure.com/tour/back-to-basics-siem-reap-village-tour-in-cambodia-t14496-1.jpg",
-        title: "Cambodian Rural",
+        img: "https://static.information.gov.kh/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN1IyQmc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9343bb408f639dfbafd8cca7f93d67ff61f4f840/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MY21WemFYcGxTU0lOTVRNMU1IZzVNREFHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--30b79c7f7567bd0a04d6c485cf8a2bbc24e21d2f/IMG_20240824_184524_991.jpg",
+        title: "Waterfall View",
         desc: "Traditional countryside life in Cambodia with wooden houses, green rice fields, and a calm natural environment."
     },
     {
-    img: "https://cdn.getyourguide.com/img/tour/643016ab6833b.jpeg/146.jpg", 
-    title: "Kampong Phluk Floating",
+    img: "https://asset.cambodia.gov.kh/tourism/2025/06/photo_2_2025-06-09_18-33-53.jpg", 
+    title: "Mountain View",
     desc: "Kampong Phluk is a unique floating village on Tonle Sap Lake, where stilt houses rise above water during the wet season and locals live in harmony with the lake."
     },
     {
@@ -25,18 +25,18 @@ const slides = [
         desc: "A tropical island destination with white sand, clear blue sea, and a relaxing holiday atmosphere."
     },
     {
-        img: "https://media.audleytravel.com/-/media/images/home/southeast-asia/cambodia/country-guides/cambodias-best-beach-holidays-and-island-resorts/kep_cambodia_414060_1512x1080.jpg?q=60&w=1600&h=1142",
-        title: "Kep Coastline",
+        img: "https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2023/10/27195813/Kampot_0_Feature-1600x900.jpg",
+        title: "Kampot View",
         desc: "A peaceful coastal area famous for fresh seafood, calm sea views, and beautiful sunsets."
     },
     {
-        img: "https://southeastasiabackpacker.com/wp-content/uploads/2023/12/Siem-Reap-City-Cambodia-1536x1024.jpg",
-        title: "Siem Reap City Center",
+        img: "https://gotripzi.com/_vercel/image?url=_astro%2Fsiem-reap-kh-gate.B-eP5Tm8.webp&w=3840&q=100&dpl=dpl_EgA6zmTbhiteQ5uoLVhiLwJQkCiX",
+        title: "Temple View",
         desc: "A vibrant tourism city with markets, hotels, restaurants, and cultural attractions for visitors."
     },
     {
-    img: "http://www.travelmarbles.com/wp-content/uploads/2016/06/siem-reap.jpg",
-    title: "Night Market Bridge",
+    img: "https://www.hotel-boutique.it/wp-content/uploads/2022/12/29-1.jpg",
+    title: "Country Side",
     desc: "An illuminated bridge leading to the Siem Reap Art Center Night Market, showcasing the vibrant evening life and local culture of Siem Reap, Cambodia."
     }
 ];
@@ -66,12 +66,12 @@ const INTERVAL=8000;
         <div class="absolute inset-0"
             style="background:linear-gradient(to right,rgba(0,0,0,0.55),transparent)">
         </div>
-        <div class="absolute inset-0 z-[5] flex flex-col justify-center px-[7%] max-w-[700px]">
+        <div class="absolute inset-0 z-[5] flex flex-col justify-center px-[7%] max-w-[800px]">
                 <h1 class="slide-title text-white font-bold mb-5"
                     style="font-size:clamp(3rem,6vw,5.5rem)">
                     ${s.title}
                 </h1>
-                <p class="slide-desc text-white/75 max-w-[440px] mb-9">
+                <p class="slide-desc text-white/75 max-w-[500px] mb-9">
                 ${s.desc}
                 </p>
             <div class="slide-actions flex gap-5">

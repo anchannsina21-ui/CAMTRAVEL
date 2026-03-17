@@ -413,7 +413,11 @@ function showDetail(placeId) {
   // Gallery
   const galleryEl = document.getElementById('detailGallery');
   galleryEl.innerHTML = place.gallery.map(img => `
-    <img src="${img}" class="w-[400px] h-[300px] object-cover shadow-2xl rounded-xl hover:scale-105 transition-transform duration-500 cursor-pointer">
+   <div class="w-[380px] h-[280px] overflow-hidden rounded-xl shadow shrink-0">
+    <img src="${img}" 
+      class="w-full h-full object-cover 
+             hover:scale-110 transition-transform duration-700 cursor-pointer">
+    </div>
   `).join('');
 
   // Map
@@ -535,26 +539,6 @@ function buildStars(rating) {
 
 const rating = 4.2; // example rating
 document.getElementById('ratingContainer').innerHTML = buildStars(rating);
-
-// Scroll to Top Button
-const scrollTopBtn = document.getElementById("scrollTopBtn");
-
-window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
-        scrollTopBtn.classList.remove("opacity-0", "invisible");
-        scrollTopBtn.classList.add("opacity-100", "visible");
-    } else {
-        scrollTopBtn.classList.add("opacity-0", "invisible");
-        scrollTopBtn.classList.remove("opacity-100", "visible");
-    }
-});
-
-scrollTopBtn.addEventListener("click", () => {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-});
 
 // INITIALIZE
 document.addEventListener('DOMContentLoaded', () => {

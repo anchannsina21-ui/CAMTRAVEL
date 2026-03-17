@@ -26,8 +26,7 @@ function loadFooter() {
         <div>
           <h3 class="text-white font-bold text-lg mb-5">Quick Links</h3>
           <ul class="flex flex-col gap-2">
-            <li><a href="index.html"              class=" text-white/90  hover:text-teal-300 transition-colors duration-200 font-semibold text-sm">Home</a></li>
-            <li><a href="#"                       class="text-white/90  hover:text-teal-300 transition-colors duration-200  font-semibold ">Review</a></li>
+            <li><a href="index.html"              class=" text-white/90  hover:text-teal-300 transition-colors duration-200 font-semibold ">Home</a></li>
             <li><a href="./pages/about.html"      class="text-white/90  hover:text-teal-300 transition-colors duration-200 font-semibold ">About Us</a></li>
             <li><a href="./pages/conctact.html"   class="text-white/90  hover:text-teal-300 transition-colors duration-200 font-semibold ">Contact</a></li>
           </ul>
@@ -41,7 +40,6 @@ function loadFooter() {
             <li class="text-white/90 text-sm  hover:text-teal-300 font-family font-semibold">Phnom Penh, Cambodia</li>
           </ul>
         </div>
-
       </div>
 
       <div class="border-t border-white/30"></div>
