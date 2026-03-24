@@ -82,7 +82,6 @@
       <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black to-transparent lg:hidden"></div>
     </section>
 
-
     <div class="max-w-7xl mx-auto px-6 py-12">
       <h1 class="text-5xl font-bold text-teal-700 text-center mb-12">
         Culture Places
@@ -113,30 +112,47 @@
     </div>
 
     <!-- Static data -->
-    <section class="py-20 px-4 sm:px-8 md:px-16 bg-gradient-to-br from-teal-600 to-teal-200">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
-          <!-- Left Content -->
-          <div class="text-center md:text-left">
-              <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight">
-                  Discover More  Than Just Temples 
-              </h1>
-
-              <p class="mt-6 text-lg sm:text-xl text-white leading-relaxed">
-                  Dive into vibrant escapes, fuel your sense of adventure, and soak up the energy of Cambodia’s local life. Every moment is a chance to play, explore, and make lasting memories.
-              </p>
-          </div>
-
-          <!-- Right Image -->
-          <div class="relative flex justify-center md:justify-end bg-gradient-to-br from-teal-100 to-teal-600 rounded-2xl p-4">
-
-            <!-- Main Image -->
-            <div class="group w-full h-full overflow-hidden rounded-xl ">
-                <img src="https://pppkhmer.sgp1.cdn.digitaloceanspaces.com/image/main/selfish_8.jpg"
-                  class="relative rounded-2xl shadow-2xl w-full max-w-xl h-[300px] md:h-[400px] object-cover transition duration-500 hover:scale-105">
-            </div>
-          </div>
+    <div class="max-w-6xl mx-auto px-6 sm:px-10 py-12 sm:py-20 flex flex-col md:flex-row items-center gap-10 md:gap-12">
+  
+      <!-- Left: Large rounded image -->
+      <div class="flex-1 w-full">
+        <div class="rounded-3xl border-4 border-white/70 overflow-hidden shadow-md">
+          <img
+            src="https://www.greeneratravel.com/userfiles/thumbs/620bambootrainrides.jpg"
+            alt="People on bamboo train Kampot"
+            class="w-full block object-cover aspect-[4/3]"
+          />
+        </div>
       </div>
-    </section>
+  
+      <!-- Right: Heading + text + circle image -->
+      <div class="flex-1 flex flex-col gap-6">
+  
+        <!-- Heading -->
+        <h2 class="font-lora text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight">
+          <span class="text-[#1a9e8f] bg-white/80 px-2 py-1">Try new </span>
+          <span class="text-white/90 px-2 py-1 ml-56 ">experience</span>
+        </h2>
+  
+        <!-- Body text + circle image side by side -->
+        <div class="flex flex-row items-center gap-6">
+  
+          <p class="font-lora text-gray-500 text-base sm:text-lg leading-relaxed flex-1">
+            Mixing modern art with Kampot's historic feel,
+            the statue showcases the city's blend of old and new.
+          </p>
+  
+          <!-- Circle image -->
+          <div class="shrink-0 w-28 h-28 sm:w-36 sm:h-36 rounded-full border-4 border-white/80 overflow-hidden shadow-md">
+            <img
+              src="https://cdn.getyourguide.com/img/tour/640699bebadf5.jpeg/145.jpg"
+              alt="Zipline adventure"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- gallery -->
     <div class="bg-white/10 backdrop-blur-md rounded-3xl py-6 md:py-10 w-[95%] lg:w-full max-w-[1100px] overflow-hidden mt-12 mb-12 md:mb-24 md:mt-24 flex justify-center mx-auto border border-white/80 shadow-2xl">

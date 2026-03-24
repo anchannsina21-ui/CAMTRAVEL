@@ -191,77 +191,77 @@ function goTo(idx){
                 ]
             },
             {
-                id: 'koh-rong-saleom',
-                title: 'Koh Rong Saleom',
-                description: 'Koh Rong Samloem is a peaceful and picturesque island known for its crystal-clear turquoise waters, soft white-sand beaches,',
-                image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/a9/73/f1/song-saa-private-island.jpg?w=1400&h=-1&s=1',
-                views: '2.2K',
-                location: 'Sihanoukville, Cambodia',
-                rating: 4.1,
-                openingHours: '24h',
-                ticketPrice: 'Free',
-                fullDescription: '  Koh Rong Samloem is a peaceful and picturesque island known for its crystal-clear turquoise waters, soft white-sand beaches, and lush tropical surroundings. It offers a calm and relaxing atmosphere, making it an ideal destination for travelers seeking tranquility and a break from busy city life.Visitors can enjoy a variety of activities such as swimming, snorkeling to explore colorful coral reefs, beach walks, sunset viewing, and staying in beachfront resorts or cozy bungalows. At night, the island offers a magical experience with glowing bioluminescent plankton in the sea, creating unforgettable memories.Koh Rong Samloem is a perfect getaway for nature lovers, couples, and anyone looking to relax in a serene and beautiful island setting.​​',
+                id: 'mangrove-forest',
+                title: 'Mangrove Forest',
+                description: 'The Mangrove Forest is one of the largest and most important mangrove ecosystems in Cambodia',
+                image: 'https://www.techoairport.com.kh/tia-backend/locators/1754029535052-Picture2.png',
+                views: '1.7K',
+                location: 'Koh Kong, Cambodia',
+                rating: 4.3,
+                openingHours: '08:00 AM – 5:00 PM',
+                ticketPrice: '$0.75 - $1.25 Adult',
+                fullDescription: 'The Mangrove Forest is one of the largest and most important mangrove ecosystems in Cambodia. Known for its dense mangrove trees, winding waterways, and rich biodiversity, the forest plays a vital role in protecting the coastline and supporting local livelihoods.Visitors can explore the mangroves by boat or kayak, enjoy the peaceful natural surroundings, and observe wildlife such as birds, fish, and crabs. The calm atmosphere makes this destination ideal for eco-tourism, nature exploration, and environmental learning.Visitors also have the opportunity to participate in mangrove planting activities through local community and eco-tourism programs. Guided by community members, visitors can learn proper planting techniques and contribute directly to environmental conservation. This hands-on experience helps raise awareness about the importance of mangrove forests while supporting sustainable tourism in Koh Kong.',
                 mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
-                mapUrl:'https://maps.app.goo.gl/WxthrzQa4LCyGQ4BA',
+                mapUrl:'https://maps.app.goo.gl/m8Zu3MTsKBxnPhFv5',
                 gallery: [
-                'https://tourismcambodia.org/storage/uploads/contents/ministry-of-tourism-cambodia-2024-07-01-02-52-19am.jpg',
-                'https://tourismcambodia.org/storage/uploads/contents/entryform/ministry-of-tourism-cambodia-2024-07-01-02-52-19am1719802341-12801.jpg',
-                'https://tourismcambodia.org/storage/uploads/contents/entryform/ministry-of-tourism-cambodia-2024-07-01-02-52-19am1719802341-12802.jpg'
-                ],
-                travelSchedule: {
-                images: [
-                    'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
-                    'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
-                ],
-                departureSchedule: [
-                    { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
-                    { label: 'Midday',    time: '11:30 AM – 12:30 PM' },
-                    { label: 'Afternoon', time: '2:30 PM – 3:30 PM' }
-                ],
-                returnSchedule: [
-                    { label: 'Morning',   time: '9:00 AM – 10:00 AM' },
-                    { label: 'Midday',    time: '12:30 PM – 1:30 PM' },
-                    { label: 'Afternoon', time: '3:30 PM – 5:00 PM' }
+                'https://www.cnc.com.kh/news/laravel-filemanager/photos/30/620b167d9e332.jpg',
+                'https://www.cnc.com.kh/news/620b168713372.jpeg',
+                'https://asset.cambodia.gov.kh/provincial/sites/12/2019/08/photo_2019-08-30_08-23-59-3-1024x682.jpg'
                 ]
-                }
             },
             {
-                id: 'angkor-wat',
-                title: 'Angkor Wat Temple',
-                description: 'Angkor Wat is the world\'s largest religious monument and the crown jewel of Khmer architecture.',
-                image: 'https://www.fodors.com/wp-content/uploads/2018/10/02.1_Angkor101_Pass_dreamstime_xxl_60637934.jpg',
+                id: 'angkor-wonder-garden',
+                title: 'Angkor Wonder Garden',
+                description: 'Angkor Wonder Garden is a huge, beautiful park about 40 minutes...',
+                image: 'https://cambotours.com/uploads/angkor-wonder-garden-6.jpg',
                 views: '2.2K',
                 location: 'Siem Reap, Cambodia',
-                rating: 4.8,
-                openingHours: '07:30 AM – 5:30 PM',
-                ticketPrice: '$37.00 (1-Day Pass)',
-                fullDescription: 'Angkor Wat is a temple complex in Cambodia and is the largest religious monument in the world, on a site measuring 162.6 hectares. Originally constructed as a Hindu temple dedicated to the god Vishnu for the Khmer Empire, it was gradually transformed into a Buddhist temple towards the end of the 12th century. It was built by the Khmer King Suryavarman II in the early 12th century in Yaśodharapura as his state temple and eventual mausoleum.',
+                rating: 4.5,
+                openingHours: 'open daily – 24h',
+                ticketPrice: '$3-10',
+                fullDescription: 'Angkor Wonder Garden is a huge, beautiful park about 40 minutes away from Siem Reap city that is famous for its massive fields of colorful flowers and creative statues. It features a tall man-made hill with a café on top where you can drink coffee and watch the sunset over the gardens. It is a perfect place for families because kids can see animals like rabbits and ostriches, and everything is lit up with glowing light in the evening for amazing photos.​​',
                 mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
-                mapUrl: 'https://www.google.com/maps/search/Angkor+Wat+Siem+Reap+Cambodia',
+                mapUrl:'https://maps.app.goo.gl/mnwtBbApxEBJiWfY8',
                 gallery: [
-                    'https://i0.wp.com/helloangkor.com/wp-content/uploads/2020/12/IMG_20200622_144812-2-1.jpg?w=1200&ssl=1',
-                    'https://i.pinimg.com/736x/bc/a5/20/bca5208bb8b55842d5717fb7f1693b2a.jpg',
-                    'https://i.pinimg.com/1200x/ae/a1/21/aea121bd8ca5c0b0ac5b7475d8c052a7.jpg'
+                'https://i.ytimg.com/vi/u-SZmp-Sn2E/maxresdefault.jpg',
+                'https://www.khmertimeskh.com/wp-content/uploads/2024/01/w11.jpeg',
+                'https://scontent.fpnh2-2.fna.fbcdn.net/v/t39.30808-6/502416227_122220329600138338_3222536188370938061_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=13d280&_nc_ohc=rD0ERFWiJF0Q7kNvwG6QIWh&_nc_oc=Admh0iXu3g1sY0r273kvm0qevO-3o2dsBHJQXnCXfUbP0haX_54Ceu8asPeJ8OiaMOU&_nc_zt=23&_nc_ht=scontent.fpnh2-2.fna&_nc_gid=8qWEorHoXXLN3tiGEf1Org&_nc_ss=8&oh=00_AfxHwiJiZkQmA8nm2luJjl3R9AZe8PRcZ1Zxig6OaP1BeQ&oe=69B3081E'
                 ]
             },
             {
-                id: 'beng-mealea-temple',
-                title: 'Beng Mealea Temple', 
-                description: 'Beng Mealea is a spectacular 12th-century Hindu temple located about 40 kilometers east of the main Angkor complex, built during the reign of King Suryavarman II.',
-                image: 'https://anywhereweroam.com/wp-content/uploads/2024/03/cambodia-travel-guides.jpg',
-                views: '1.7K',
-                location: 'Siem Reap Province, Cambodia',
-                rating: 4.3,
-                openingHours: '7:30 AM – 5:30 PM',
-                ticketPrice: 'Day Pass: $37 USD',
-                fullDescription: 'Beng Mealea is a spectacular 12th-century Hindu temple located about 40 kilometers east of the main Angkor complex, built during the reign of King Suryavarman II. Its name means "lotus pond" in Khmer, and it was dedicated to the god Vishnu, featuring a layout almost identical to Angkor Wat. The temple is fascinating because it has been largely left in its natural, unrestored state, with massive sandstone blocks collapsed in heaps and ancient trees growing through the crumbling structures. It was added to the UNESCO World Heritage Tentative List in 2020, recognizing its outstanding cultural value. Visitors cannot miss exploring the vast complex of three enclosing galleries surrounding a central sanctuary, where intricate carvings depict scenes from Hindu mythology like the Churning of the Sea of Milk. The best time to visit is during the dry season from November to March, with early morning offering the most magical light and peaceful atmosphere. When you arrive, be sure to walk the wooden pathway built for the film "Two Brothers," which allows access through the otherwise impassable ruins. The temple requires a separate entrance fee of approximately $5-15, as the standard Angkor Pass is not valid here. Wear sturdy shoes for climbing over rubble, bring plenty of water, and hire a local guide to discover hidden courtyards and the mysterious echo chamber. Unlike the crowded temples of Angkor, Beng Mealea offers a true Indiana Jones adventure where you can feel like a true explorer discovering lost ruins .',
+                id: 'king-island',
+                title: 'King Island',
+                description: 'King Island is a beautiful natural tourist island located in Koh Kong Province, Cambodia. It is well known for its',
+                image: 'https://oss4.tnaot.com/tnaot/image/2021/09/14/ae543cd5505f4100b67991c573ceaa97.jpg',
+                views: '1.8K',
+                location: 'Koh Kong, Cambodia',
+                rating: 4.4,
+                openingHours: '24h',
+                ticketPrice: 'Free',
+                fullDescription: 'King Island is a beautiful natural tourist island located in Koh Kong Province, Cambodia. It is well known for its clear blue seawater, white sandy beaches, and peaceful atmosphere, making it an ideal destination for relaxation and seaside vacations. The island is rich in marine biodiversity, which attracts many visitors who love nature and ocean activities.Visitors can enjoy a variety of activities such as swimming, snorkeling, boat trips, fishing, and walking along the scenic coastline. The island is also home to local fishing villages, where tourists can experience the traditional lifestyle and culture of the local community.In addition, Koh Sdach offers a range of accommodations, including resorts and guesthouses that provide comfortable stays while enjoying stunning ocean views.',
                 mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
-                mapUrl: 'https://www.google.com/maps/search/National+Museum+of+Cambodia+Phnom+Penh',
+                mapUrl: 'https://maps.app.goo.gl/xVuLh8Z4Wx1tvhKLA',
                 gallery: [
-                'https://www.capitoltraveltours.com/wp-content/uploads/2023/08/Beng-Mealea-temple.jpg',
-                'https://www.mytravelbuzzg.com/wp-content/uploads/Outlying-Temple-Beng-Mealea.jpg',
-                'https://www.indochinavoyages.com/wp-content/uploads/2014/12/beng-mealea-jungle-temple.jpg'
-                ]
+                'https://huunghivietnamcampuchia.thoidai.com.vn/stores/news_dataimages/huunghivietnamcampuchia-thoidai-com-vn/062020/15/19/%E1%9E%80-%E1%9E%9F-%E1%9E%8A-%E1%9E%85-%E1%9E%87-%E1%9E%9A%E1%9E%98%E1%9E%8E-%E1%9E%99%E1%9E%8A-%E1%9E%8B-%E1%9E%93-%E1%9E%92%E1%9E%98-%E1%9E%98%E1%9E%87-%E1%9E%8F-%E1%9E%93-%E1%9E%84-%E1%9E%94-%E1%9E%9A%E1%9E%87-%E1%9E%80-20-.2015.jpg',
+                'https://huunghivietnamcampuchia.thoidai.com.vn/stores/news_dataimages/huunghivietnamcampuchia-thoidai-com-vn/062020/15/19/%E1%9E%80-%E1%9E%9F-%E1%9E%8A-%E1%9E%85-%E1%9E%87-%E1%9E%9A%E1%9E%98%E1%9E%8E-%E1%9E%99%E1%9E%8A-%E1%9E%8B-%E1%9E%93-%E1%9E%92%E1%9E%98-%E1%9E%98%E1%9E%87-%E1%9E%8F-%E1%9E%93-%E1%9E%84-%E1%9E%94-%E1%9E%9A%E1%9E%87-%E1%9E%80-20-.3992.jpg',
+                'https://huunghivietnamcampuchia.thoidai.com.vn/stores/news_dataimages/huunghivietnamcampuchia-thoidai-com-vn/062020/15/19/%E1%9E%80-%E1%9E%9F-%E1%9E%8A-%E1%9E%85-%E1%9E%87-%E1%9E%9A%E1%9E%98%E1%9E%8E-%E1%9E%99%E1%9E%8A-%E1%9E%8B-%E1%9E%93-%E1%9E%92%E1%9E%98-%E1%9E%98%E1%9E%87-%E1%9E%8F-%E1%9E%93-%E1%9E%84-%E1%9E%94-%E1%9E%9A%E1%9E%87-%E1%9E%80-20-.0778.jpg'
+                ],
+                travelSchedule: {
+                    images: [
+                        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
+                        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+                    ],
+                    departureSchedule: [
+                        { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
+                        { label: 'Midday',    time: '11:30 AM – 12:30 PM' },
+                        { label: 'Afternoon', time: '2:30 PM – 3:30 PM' }
+                    ],
+                    returnSchedule: [
+                        { label: 'Morning',   time: '9:00 AM – 10:00 AM' },
+                        { label: 'Midday',    time: '12:30 PM – 1:30 PM' },
+                        { label: 'Afternoon', time: '3:30 PM – 5:00 PM' }
+                    ]
+                }
             },
             {
                 id: 'royal-palace',
@@ -283,22 +283,22 @@ function goTo(idx){
                 ]
             },
             {
-                id: 'stueng-porpok',
-                title: 'Stueng Porpok',
-                description: 'Stueng Popok is a scenic natural destination known for its cool climate and breathtaking sea of clouds that appears in',
-                image: 'https://scontent.fpnh2-1.fna.fbcdn.net/v/t39.30808-6/490921232_1205060158072620_6707734999301943312_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeHSOfJsGMNV1-m2r28xed27ZwvvPaawAM5nC-89prAAzsVtx7-3chMpHe6opFeoKuuzU9XDA2EaacPlETxu9auH&_nc_ohc=RZh9aG18pMMQ7kNvwEJIYyp&_nc_oc=AdkaWj-kiaPeUqh8AWTcKzjBCz4eLfvjf5zJlTlhSsqD9jnjaNx7QkUZsQ3GPYHSQHQ&_nc_zt=23&_nc_ht=scontent.fpnh2-1.fna&_nc_gid=ITuiD4Px9qjOrMpe7jwI3g&_nc_ss=8&oh=00_Afz9PKfKIS2dr6Glazmo9157zLcJOskYAN2HOtsmAz6CcA&oe=69BB5676',
+                id: 'Garden City Water Park',
+                title: 'Garden City Water Park',
+                description: 'Garden City Water Park is Cambodia’s premier aquatic destination and....',
+                image: 'https://www.cnineo.com/images/project/garden-city-water-park-in-cambodia-2.jpg',
                 views: '1.7K',
-                location: 'Koh Kong, Cambodia',
-                rating: 4.4,
-                openingHours: '04:00 AM – 5:00 PM(Monday to Friday) and 24h (Suturday to Sunday)',
-                ticketPrice: '$2.25 Adult',
-                fullDescription: 'Stueng Popok is a scenic natural destination known for its cool climate and breathtaking sea of clouds that appears in the early morning. Located in a mountainous area, the site offers panoramic views where mist and clouds gently flow through valleys and trees, creating a peaceful and dreamlike atmosphere.The name Stung Popok is associated with the frequent appearance of clouds and mist, especially during the cool season. Visitors often come early to witness sunrise above the clouds, relax in the fresh air, and capture stunning photographs of nature.With its tranquil environment, cool weather, and iconic cloud scenery, Stung Popok is an ideal destination for nature lovers and travelers seeking a calm escape and a memorable sunrise experience in Cambodia.',
+                location: 'Phnom Penh, Cambodia',
+                rating: 4.3,
+                openingHours: '11:00 AM – 4:30 PM.',
+                ticketPrice: '$15.50 - $15.99. Adult / $9.25 - $9.99 Child',
+                fullDescription: 'Garden City Water Park is Cambodia’s premier aquatic destination and the largest facility of its kind in the kingdom. Spanning over six hectares, the park features a massive collection of world-class attractions, including a 13,000-square-meter wave pool, a long lazy river, and 38 diverse water slides designed by internationally renowned engineers. The facility offers a wide range of entertainment options, from high-adrenaline peak drops and tornado slides to dedicated kids zones and relaxing private cabanas. Operating from Tuesday to Sunday, the park provides an immersive leisure experience for families and tourists, showcasing modern recreational infrastructure just outside the heart of Phnom Penh.',
                 mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
-                mapUrl: 'https://maps.app.goo.gl/o55he25Wy7dgtuKS6',
+                mapUrl:'https://maps.app.goo.gl/7VeejpV6hsLcviwp8',
                 gallery: [
-                'https://www.guidetrip.info/asset/img/gallery_resort/609359c95769c.jpeg',
-                'https://oss4.tnaot.com/tnaot/image/2021/10/30/304b7fdb278f4fec8b29909eef7e8912.jpg',
-                'https://image.thmeythmey.com/pictures/2020/04/23/a__7_.jpg'
+                'https://gardencitywaterpark.com/wp-content/uploads/2022/11/gardencity-waterpark-image-2.jpg',
+                'https://www.cnineo.com/images/project/garden-city-water-park-in-cambodia-1.webp',
+                'https://gardencitywaterpark.com/wp-content/uploads/2022/11/Kids-Paradise-gallery-3.jpg'
                 ]
             },
             {
@@ -341,22 +341,22 @@ function goTo(idx){
                 ]
             },
             {
-                id: 'koh-ker-temple',
-                title: 'Koh Ker Temple',
-                description: 'Remote temple complex with impressive pyramid-shaped temple.',
-                image: 'https://www.cambodia-roads.fr/wp-content/uploads/2017/06/Koh-Ker.jpg',
-                views: '1.7K',
-                location: 'Preah Vihear, Cambodia',
-                rating: 4.5,
-                openingHours: '07:30 AM – 5:30 PM',
-                ticketPrice: '$15.00',
-                fullDescription: 'Koh Ker was the capital of the Khmer Empire for a brief period from 928 to 944 AD. The site is dominated by Prasat Thom, a 30-meter tall temple mountain raising seven tiers to a flat summit. The site also features numerous other temples and structures scattered throughout the forested area.',
+                id: 'Kampoul Pich',
+                title: 'Kampoul Pich',
+                description: 'Kompoul Pich Resort in Takeo offers a quiet, natural escape......',
+                image: 'https://i.ytimg.com/vi/5q-vnED1bHY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDMSAkeT62IRVtOlhOk5YGFQQHO2Q',
+                views: '2.1K',
+                location: 'Takeo, Cambodia',
+                rating: 4.9,
+                openingHours: '06:30 AM to 07:30 PM',
+                ticketPrice: '$1.00 to $2.50',
+                fullDescription: '  Kompoul Pich Resort in Takeo offers a quiet, natural escape with lush green spaces, wooden cottages, a restaurant, and a farm. It is an ideal spot for a relaxing day trip, picnic, or overnight stay. Guests can enjoy scenic views from the overwater restaurant while dining on fresh, local cuisine prepared with ingredients from the on-site gardens. For entertainment, the resort features a variety of activities including swimming pools, water slides, and swan boat rides across the peaceful lake.',
                 mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
-                mapUrl: 'https://maps.app.goo.gl/wv6w4aFMKsZxmmrk9',
+                mapUrl:'https://maps.app.goo.gl/GXVMzR5eGbpCdGdSA',
                 gallery: [
-                    'https://angkorwatexplorer.com/wp-content/uploads/2024/04/koh-ker-temple-cambodia-4.jpg',
-                    'https://i.pinimg.com/736x/c2/c1/25/c2c125631fad6864fa2d494fc750d5ba.jpg',
-                    'https://www.areacambodia.com/wp-content/uploads/2023/09/The-UNESCOs-World-Heritage-Site-designation-was-given-to-the-Koh-Ker-Temple-also-known-as-the-Huge-Pyramid-of-Cambodia.jpg'
+                'https://scontent.fpnh24-1.fna.fbcdn.net/v/t39.30808-6/480876082_614598007946026_8169429304453253067_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=_6FaZhMntp4Q7kNvwFgG6fp&_nc_oc=AdlwoNAiO29sKJme8mblJbcLvytn-UeX6Fcj678H4rsq3DpMtKCZLNutMxfIAWtexjQ&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=MeY9YsiPLHXwCBqpBEMEqg&_nc_ss=8&oh=00_Afzzu-YGQNuOwZtYLNEANv1O7jgcfnDY9piQudpvbFPbLQ&oe=69B34AC3',
+                'https://scontent.fpnh24-1.fna.fbcdn.net/v/t39.30808-6/487203632_3532386976895385_6597836432771496749_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=13d280&_nc_ohc=dGJSZudLt5wQ7kNvwHnKQb_&_nc_oc=AdkCSEAsawIAUmJ9pgNckzy547448FkR7XmT2KjCfA8FZ4-rm1tSYAetDW5Hs4iHnyc&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=l-jCQBjG_0bdYO3dflLDaQ&_nc_ss=8&oh=00_AfzFsf6YAi88eDK7_boBS-ov5FgwPx3vYjTBrulNz-LasQ&oe=69B37EA7',
+                'https://scontent.fpnh24-1.fna.fbcdn.net/v/t1.6435-9/66827488_1558044550994451_779482958737178624_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7b2446&_nc_ohc=fi8_kiZLYaAQ7kNvwEyPa_O&_nc_oc=AdkJ1J8Lym401gw7TpU7bG3_mSEtBjhcCJ-K8ZoVTF-vl3LcjowPbSBNiK3jxEk4W_k&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=BrgxdfKZCrNce_68nubz7A&_nc_ss=8&oh=00_AfxoHckaiGiMIXxZbg_N_D4tdTRBhxZMsR4Yyh2_RVS9EA&oe=69D50697'
                 ]
             },
             {
@@ -380,40 +380,40 @@ function goTo(idx){
             },
             {
                 id: 'beng-mealea-temple',
-                title: 'Beng Mealea Temple',
-                description: 'Mysterious jungle temple largely unrestored with atmospheric ruins.',
+                title: 'Beng Mealea Temple', 
+                description: 'Beng Mealea is a spectacular 12th-century Hindu temple located about 40 kilometers east of the main Angkor complex, built during the reign of King Suryavarman II.',
                 image: 'https://anywhereweroam.com/wp-content/uploads/2024/03/cambodia-travel-guides.jpg',
-                views: '1.9K',
-                location: 'Siem Reap, Cambodia',
-                rating: 4.6,
-                openingHours: '06:00 AM – 5:00 PM',
-                ticketPrice: '$5.00',
-                fullDescription: 'Beng Mealea is a temple from the Angkor Wat period located 40 km east of the main group of temples. The temple is largely unrestored, with trees and thick brush thriving amidst its towers and courtyards. Its primary materials are sandstone and it is known for its long corridors.',
+                views: '1.7K',
+                location: 'Siem Reap Province, Cambodia',
+                rating: 4.3,
+                openingHours: '7:30 AM – 5:30 PM',
+                ticketPrice: 'Day Pass: $37 USD',
+                fullDescription: 'Beng Mealea is a spectacular 12th-century Hindu temple located about 40 kilometers east of the main Angkor complex, built during the reign of King Suryavarman II. Its name means "lotus pond" in Khmer, and it was dedicated to the god Vishnu, featuring a layout almost identical to Angkor Wat. The temple is fascinating because it has been largely left in its natural, unrestored state, with massive sandstone blocks collapsed in heaps and ancient trees growing through the crumbling structures. It was added to the UNESCO World Heritage Tentative List in 2020, recognizing its outstanding cultural value. Visitors cannot miss exploring the vast complex of three enclosing galleries surrounding a central sanctuary, where intricate carvings depict scenes from Hindu mythology like the Churning of the Sea of Milk. The best time to visit is during the dry season from November to March, with early morning offering the most magical light and peaceful atmosphere. When you arrive, be sure to walk the wooden pathway built for the film "Two Brothers," which allows access through the otherwise impassable ruins. The temple requires a separate entrance fee of approximately $5-15, as the standard Angkor Pass is not valid here. Wear sturdy shoes for climbing over rubble, bring plenty of water, and hire a local guide to discover hidden courtyards and the mysterious echo chamber. Unlike the crowded temples of Angkor, Beng Mealea offers a true Indiana Jones adventure where you can feel like a true explorer discovering lost ruins .',
                 mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
-                mapUrl: 'https://www.google.com/maps/search/Beng+Mealea+Temple+Cambodia',
+                mapUrl: 'https://www.google.com/maps/search/National+Museum+of+Cambodia+Phnom+Penh',
                 gallery: [
-                    'https://www.capitoltraveltours.com/wp-content/uploads/2023/08/Beng-Mealea-temple.jpg',
-                    'https://www.mytravelbuzzg.com/wp-content/uploads/Outlying-Temple-Beng-Mealea.jpg',
-                    'https://www.indochinavoyages.com/wp-content/uploads/2014/12/beng-mealea-jungle-temple.jpg'
+                'https://www.capitoltraveltours.com/wp-content/uploads/2023/08/Beng-Mealea-temple.jpg',
+                'https://www.mytravelbuzzg.com/wp-content/uploads/Outlying-Temple-Beng-Mealea.jpg',
+                'https://www.indochinavoyages.com/wp-content/uploads/2014/12/beng-mealea-jungle-temple.jpg'
                 ]
             },
             {
-                id: 'banteay-srei',
-                title: 'Banteay Srei',
-                description: 'Exquisite pink sandstone temple known for detailed decorative carvings.',
-                image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop',
+                id: 'Daung TE',
+                title: 'Daung TE',
+                description: 'Daung Te is a riverside destination on the Prek Tuek Chhu River for....',
+                image: 'https://www.khmertimeskh.com/wp-content/uploads/2024/10/a6.jpeg',
                 views: '2.1K',
-                location: 'Siem Reap, Cambodia',
+                location: 'Kampot, Cambodia',
                 rating: 4.9,
-                openingHours: '07:30 AM – 5:30 PM',
-                ticketPrice: '$37.00 (1-Day Pass)',
-                fullDescription: 'Banteay Srei is a 10th-century Cambodian temple dedicated to the Hindu god Shiva. Built largely of red sandstone which lends itself to elaborate decorative wall carvings which are still observable today. The buildings themselves are miniature in scale, unusually so when measured by the standards of Angkorian construction.',
-                mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.5!2d103.963!3d13.599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1',
-                mapUrl: 'https://maps.app.goo.gl/EwQqzrFnjNxCZu489',
+                openingHours: 'open daily – 24h',
+                ticketPrice: 'free entry',
+                fullDescription: 'Daung Te is a riverside destination on the Prek Tuek Chhu River for fun and relaxation. Visitors can enjoy kayaking, rope swings, hammocks on a floating raft, a restaurant, and guesthouses, making it a popular family-friendly spot on weekends. The resort standout feature is its massive riverside water slide, which launches thrill-seekers directly into the refreshing currents of the river. For those seeking a slower pace, the sunset boat tours offer a serene way to take in the mountain views as the sky turns vibrant shades of orange and pink.',
+                mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+                mapUrl:'https://maps.app.goo.gl/GdQdRua3Ck5FSPaZA',
                 gallery: [
-                    'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop',
-                    'https://images.unsplash.com/photo-1563640343-f5df12f28caa?w=600&h=400&fit=crop',
-                    'https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=600&h=400&fit=crop'
+                'https://scontent.fpnh24-1.fna.fbcdn.net/v/t39.30808-6/484530948_664665019275077_6555629123626877916_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_ohc=kOyT3uGT2IkQ7kNvwEQ-LDD&_nc_oc=AdmnZpIWvxzn9HxEMETc7_ZcsyqPGSEpkZ91s9LE-EAZFyhvgVVHEtbrO_sq7kHUUfA&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=q02htEhgnGW20dvtl_VHRg&_nc_ss=8&oh=00_AfyPGG32PGZeNCjSEfNzzLFb8RPvW4ysnpOo1aohr_zjDw&oe=69B34CE1',
+                'https://d34vm3j4h7f97z.cloudfront.net/original/4X/3/3/f/33f33fd4cfcb103742878ebd0afe355b14293860.jpeg',
+                'https://www.khmertimeskh.com/wp-content/uploads/2023/11/Kampot-and-Preah-Sihanouk-look-forward-to-Water-Festival-tourist-bonanza.jpg'
                 ]
             }
         ];

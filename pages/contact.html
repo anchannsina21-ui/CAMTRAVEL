@@ -6,14 +6,29 @@
     <title>Contact Page</title>
     <link rel="stylesheet" href="/src/output.css">
 </head>
-<body class="bg-gradient-to-br from-teal-100 to-teal-400">
+<body class="bg-teal-200">
 
-  <div class="pt-16 bg-teal-500 py-16 px-4 text-center">
-    <div class="text-5xl mb-3">✉️</div>
-    <h1 class="font-logo text-5xl font-black text-white">Contact Us</h1>
-    <p class="text-teal-100 mt-3 text-lg">We'd love to hear from you</p>
+  <!-- Parent container with relative positioning and full height -->
+  <div class="relative w-full h-screen overflow-hidden">
+      
+      <!-- 1. The Map Image (Background) -->
+      <img src="https://img.freepik.com/premium-vector/location-cambodia-world-map-marked-with-cambodia-flag-pin_292608-37063.jpg?semt=ais_hybrid&w=740&q=80" 
+          class="absolute inset-0 w-full h-full object-cover" 
+          alt="Cambodia Map">
+
+      <!-- 2. The Overlay (Optional: darkens the map so text is easier to read) -->
+      <div class="absolute inset-0 bg-teal-900/60"></div>
+
+      <!-- 3. The Content (Centered on top) -->
+      <div class="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
+          <h1 class="text-5xl md:text-7xl font-family font-black text-teal-500 drop-shadow-md">
+            <span class="text-amber-400"> Get  In </span> Touch <span class="text-white"> With Us </span>
+          </h1>
+          <p class="text-white mt-3 text-lg md:text-xl font-family max-w-lg">
+              We'd love to hear from you. Reach out to start your Cambodian journey.
+          </p>
+      </div>
   </div>
-
   <section class="py-16 px-4 ">
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 rounded-2xl  drop-shadow-xl bg-teal-500 transition scale-105">
 
