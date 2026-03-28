@@ -20,11 +20,11 @@ const PLACES = [
     ],
       travelSchedule: {
       images: [
-        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
-        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+        'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/7e/76/f0.jpg',
+        'https://img.freepik.com/premium-photo/view-typical-cambodian-long-tale-boat-anchored-beach-otres-near-sihanoukville_1048944-24824117.jpg'
       ],
       departureSchedule: [
-        { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
+        { label: 'Morning',   time: '8:00 AM – 9:00 AM' },
         { label: 'Midday',    time: '11:30 AM – 12:30 PM' },
         { label: 'Afternoon', time: '2:30 PM – 3:30 PM' }
       ],
@@ -56,8 +56,8 @@ const PLACES = [
     ],
     travelSchedule: {
       images: [
-        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
-        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+        'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/7e/76/f0.jpg',
+        'https://img.freepik.com/premium-photo/view-typical-cambodian-long-tale-boat-anchored-beach-otres-near-sihanoukville_1048944-24824117.jpg'
       ],
       departureSchedule: [
         { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
@@ -91,8 +91,8 @@ const PLACES = [
     ],
     travelSchedule: {
       images: [
-        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
-        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+        'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/7e/76/f0.jpg',
+        'https://img.freepik.com/premium-photo/view-typical-cambodian-long-tale-boat-anchored-beach-otres-near-sihanoukville_1048944-24824117.jpg'
       ],
       departureSchedule: [
         { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
@@ -126,8 +126,8 @@ const PLACES = [
     ],
     travelSchedule: {
       images: [
-        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
-        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+        'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/7e/76/f0.jpg',
+        'https://img.freepik.com/premium-photo/view-typical-cambodian-long-tale-boat-anchored-beach-otres-near-sihanoukville_1048944-24824117.jpg'
       ],
       departureSchedule: [
         { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
@@ -180,8 +180,8 @@ const PLACES = [
     ],
     travelSchedule: {
       images: [
-        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
-        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+        'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/7e/76/f0.jpg',
+        'https://img.freepik.com/premium-photo/view-typical-cambodian-long-tale-boat-anchored-beach-otres-near-sihanoukville_1048944-24824117.jpg'
       ],
       departureSchedule: [
         { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
@@ -275,7 +275,7 @@ const PLACES = [
     id: 'bou-sra-waterfall',
     title: 'Bou Sra Waterfall',
     description: 'Bou Sra Waterfall is one of the most spectacular and largest waterfalls in Cambodia. Located.',
-    image: 'https://scontent.fpnh2-1.fna.fbcdn.net/v/t39.30808-6/496942869_1285298850215387_4353142125275880152_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeFCitlP9Sf1rmD7wO7ZcpDAN9JFeX24lB030kV5fbiUHUrxf1OkhJKRuradSZ74tpTKj78aNAfx7-z0gIxKBXmH&_nc_ohc=v--k8ULImoAQ7kNvwF0xZkm&_nc_oc=AdkDVn3Ir8UaVbxdtXhdCdPjmTwtcFvrcBvU9XnOPjWRPlcS2EpR5zenPxz3jpM9Owc&_nc_zt=23&_nc_ht=scontent.fpnh2-1.fna&_nc_gid=lUgxeJalBEkE9s4v6haLrw&_nc_ss=8&oh=00_Afw6HJC0-LWAZd8qYjRoyiIWuy2FmjOYjl8p_VC3JEaH5A&oe=69BB643E',
+    image: 'https://tourismcambodia.net/wp-content/uploads/2024/05/bou-sra-waterfall-3-1500x1000.jpg',
     views: '1.7K',
     location: 'Mondulkiri, Cambodia',
     rating: 4.3,
@@ -294,7 +294,7 @@ const PLACES = [
     id: 'stueng-porpok',
     title: 'Stueng Porpok',
     description: 'Stueng Popok is a scenic natural destination known for its cool climate and breathtaking sea of clouds that appears in',
-    image: 'https://scontent.fpnh2-1.fna.fbcdn.net/v/t39.30808-6/490921232_1205060158072620_6707734999301943312_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeHSOfJsGMNV1-m2r28xed27ZwvvPaawAM5nC-89prAAzsVtx7-3chMpHe6opFeoKuuzU9XDA2EaacPlETxu9auH&_nc_ohc=RZh9aG18pMMQ7kNvwEJIYyp&_nc_oc=AdkaWj-kiaPeUqh8AWTcKzjBCz4eLfvjf5zJlTlhSsqD9jnjaNx7QkUZsQ3GPYHSQHQ&_nc_zt=23&_nc_ht=scontent.fpnh2-1.fna&_nc_gid=ITuiD4Px9qjOrMpe7jwI3g&_nc_ss=8&oh=00_Afz9PKfKIS2dr6Glazmo9157zLcJOskYAN2HOtsmAz6CcA&oe=69BB5676',
+    image: 'https://oss4.tnaot.com/tnaot/image/2021/10/30/304b7fdb278f4fec8b29909eef7e8912.jpg',
     views: '1.7K',
     location: 'Koh Kong, Cambodia',
     rating: 4.4,
@@ -305,7 +305,7 @@ const PLACES = [
     mapUrl: 'https://maps.app.goo.gl/o55he25Wy7dgtuKS6',
     gallery: [
       'https://www.guidetrip.info/asset/img/gallery_resort/609359c95769c.jpeg',
-      'https://oss4.tnaot.com/tnaot/image/2021/10/30/304b7fdb278f4fec8b29909eef7e8912.jpg',
+      'https://i.ytimg.com/vi/bCtQ4oWPSiU/maxresdefault.jpg',
       'https://image.thmeythmey.com/pictures/2020/04/23/a__7_.jpg'
     ]
   },
@@ -313,7 +313,7 @@ const PLACES = [
     id: 'phnom-khnang-phsa',
     title: 'Phnom Khnang Phsa',
     description: 'Phnom Khnang Phsa ​is a beautiful natural tourist destination located in Kampong Speu, Cambodia. It is well known for its',
-    image: 'https://scontent.fpnh2-1.fna.fbcdn.net/v/t39.30808-6/485178452_1206906837890390_8639110844357478211_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeEDdXe7JahhQYleZKwHeb07jvDMtMvMeGKO8My0y8x4YsTp8_6WGTeNqXBDRW5VjFixB0MIN8ADw1EVUd3LqPHz&_nc_ohc=6P_Xo70JMFIQ7kNvwFQCJfN&_nc_oc=AdlKd1w3e_5A_fRU91Xt583go9NioShtE0dAGs_Wm2sibc7zIqIkrrb1QmOEK3VO3ro&_nc_zt=23&_nc_ht=scontent.fpnh2-1.fna&_nc_gid=DL6O4trLpKvX6rcTCEbjcA&_nc_ss=8&oh=00_Afw-rJp0nAdjddWb1-N9SouMkV2-3zGhtFWW0TPD2ojSfQ&oe=69BB690A',
+    image: 'https://merrytravelasia.com/wp-content/uploads/2023/06/Knong-Phsar-Mountain-Cambodia.jpg',
     views: '1.7K',
     location: 'Kampong Speu, Cambodia',
     rating: 4.7,
@@ -324,8 +324,8 @@ const PLACES = [
     mapUrl: 'https://maps.app.goo.gl/cfMHh2guGqPnxs3r7',
     gallery: [
       'http://image.freshnewsasia.com/2020/id-126/fn-2020-05-27-12-24-53-0.jpg',
-      'https://scontent.fpnh2-1.fna.fbcdn.net/v/t39.30808-6/484792204_1206907107890363_5980078070544312729_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeHimRzT7jRvbLQBTqdhr121GPFOQdWLABkY8U5B1YsAGcno-l27ggtYHI8zUWM6mQ0TCZLlQynbq1W51fP0Mumr&_nc_ohc=U_4y3mqXUNwQ7kNvwG8queL&_nc_oc=Adn5S-Zrjxk5US1VCwczY_8kA_tFR92V-gDkQlOYq81EeAnK-M2TMm4_m0z7Kwhqsj8&_nc_zt=23&_nc_ht=scontent.fpnh2-1.fna&_nc_gid=yEdbYWt20BsK1C8q8aP9ag&_nc_ss=8&oh=00_Afy82K_5SbZmQSjp1R_e6YRIqg01pLzrS-o9Gp1O55f6sg&oe=69BB752F',
-      'https://scontent.fpnh2-1.fna.fbcdn.net/v/t39.30808-6/485991628_1210799830834424_6370349572344626865_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeECsxj99EpG1nnVTWyrwRBrnHgYb1tAgcqceBhvW0CBygdbquPWMsktYDdb1f6hzk3GCyOHW--iN5iZqLCHO-GB&_nc_ohc=wWsf-1qDfJYQ7kNvwFCo4BC&_nc_oc=AdnnJ48i44ATEeA57ADT1uAxgwTePJXQvJu4X7j240ubk-7lpOw0dnqfFVvoAbTVEOI&_nc_zt=23&_nc_ht=scontent.fpnh2-1.fna&_nc_gid=kOTw7A2S6tvdlayFF7jcFg&_nc_ss=8&oh=00_AfxdbjWpz-K-bbDM4Hb0wkN7_xGg2PaRK7dEwPmWd6-rXg&oe=69BB6D03'
+      'https://www.cambodiatourpackage.com/uploads/tours/photo_itis/knong-phsar-mountain-trekking-ek6b.jpg',
+      'https://i0.wp.com/www.seeasiadifferently.com/wp-content/uploads/sites/795/2020/07/Sea-of-clouds.jpg?w=802&ssl=1'
     ]
   },
   {
@@ -495,11 +495,12 @@ function showDetail(placeId) {
   // Gallery
   const galleryEl = document.getElementById('detailGallery');
   galleryEl.innerHTML = place.gallery.map(img => `
-    <div class="w-[380px] h-[280px] overflow-hidden rounded-xl shadow shrink-0">
+  <div class="overflow-hidden rounded-xl shadow">
     <img src="${img}" 
-      class="w-full h-full object-cover hover:scale-110 transition-transform duration-700 cursor-pointer">
-    </div>
-  `).join('');
+      class="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover 
+             hover:scale-110 transition-transform duration-700 cursor-pointer">
+  </div>
+`).join('');
 
   // Map iframe view of map
   const mapContainer = document.getElementById('detailMapContainer');
@@ -656,22 +657,6 @@ function showList() {
   document.getElementById('listView').classList.add('active');
   window.scrollTo(0, 0);
 }
-
-// STARS 
-function buildStars(rating) {
-  let html = '';
-  for (let i = 1; i <= 5; i++) {
-    const color = i <= Math.floor(rating) ? '#facc15' : '#d1d5db';
-    html += `<svg width="14" height="14" fill="${color}" viewBox="0 0 20 20">
-      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-    </svg>`;
-  }
-  html += `<span class="text-white/80 text-xs ml-1">${rating}</span>`;
-  return html;
-}
-
-const rating = 4.1; // example rating
-document.getElementById('ratingContainer').innerHTML = buildStars(rating);
 
 // INITIALIZE
 document.addEventListener('DOMContentLoaded', () => {

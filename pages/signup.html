@@ -7,119 +7,192 @@
     <link rel="stylesheet" href="/src/output.css">
 </head>
 
-<body class="min-h-screen bg-teal-200 flex flex-col">
+<body class="flex flex-col min-h-screen bg-teal-200 font-family">
 
-  <div class="flex items-center justify-center m-4 px-4 md:px-12 py-8 md:py-12 pt-10 md:pt-16">
+  <!-- ── MAIN (flex-1 so it fills all space between nav and footer) ── -->
+  <main class="flex-1 flex items-center justify-center p-4 sm:p-8 py-12">
+    <!-- Card -->
+    <div class="w-full max-w-3xl rounded-2xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
 
-    <!-- Main Card -->
-    <div class="bg-white rounded-3xl shadow-2xl w-full max-w-5xl p-6 md:p-10 flex flex-col md:flex-row gap-10 md:gap-20">
+      <!-- LEFT: Teal panel -->
+      <div class="w-full md:w-2/5 flex flex-col justify-between p-8 md:p-10 relative overflow-hidden bg-[#3aab97]">
 
-        <!-- Left: Form -->
-        <div class="flex-1 grid col-span-2">
+        <div class="absolute -top-12 -left-12 w-48 h-48 rounded-full bg-white/5 pointer-events-none"></div>
+        <div class="absolute -bottom-16 -right-10 w-56 h-56 rounded-full bg-white/5 pointer-events-none"></div>
 
-          <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
-            </svg>
-          </div>
-
-          <h1 class="font-logo text-2xl md:text-3xl font-black text-center text-gray-800 mb-1">
-            Welcome Back
-          </h1>
-
-          <p class="text-center text-gray-400 mb-8 text-sm">
-            Sign up to your CamTravel account
+        <!-- Logo -->
+        <div class="relative z-10">
+          <p class="font-extrabold text-2xl tracking-wide leading-none text-white">
+          
           </p>
+        </div>
 
-          <div class="space-y-5">
+        <!-- Info items -->
+        <div class="relative z-10 mt-10 space-y-5">
 
+          <div class="flex items-start gap-3">
+            <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
             <div>
-              <label class="block text-sm font-semibold text-gray-600 mb-1">
-                Email Address
-              </label>
+              <p class="text-white font-bold text-sm">Free to Join</p>
+              <p class="text-white/60 text-xs leading-relaxed">Create your account in just a few steps</p>
+            </div>
+          </div>
 
+          <div class="flex items-start gap-3">
+            <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="text-white font-bold text-sm">Exclusive Deals</p>
+              <p class="text-white/60 text-xs leading-relaxed">Members get access to special travel offers</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3">
+            <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21S5 13.5 5 8.5a7 7 0 1114 0C19 13.5 12 21 12 21z"/>
+                <circle cx="12" cy="8.5" r="2.2" stroke-width="1.8"/>
+              </svg>
+            </div>
+            <div>
+              <p class="text-white font-bold text-sm">Plan Trips</p>
+              <p class="text-white/60 text-xs leading-relaxed">Manage all your Cambodia adventures in one place</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Footer note inside panel -->
+        <div class="hidden md:block relative z-10 mt-10 pt-6 border-t border-white/20">
+          <p class="text-xs font-medium text-white/40"></p>
+        </div>
+
+      </div>
+
+      <!-- RIGHT: White form -->
+      <div class="bg-white flex-1 p-8 md:p-10">
+
+        <h2 class="font-extrabold text-2xl text-gray-800 mb-1">Create Account</h2>
+        <p class="text-sm text-gray-400 mb-6">Join CamTravel and start your journey</p>
+
+        <div class="space-y-4">
+
+          <!-- Full Name + Username -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-bold text-gray-700 mb-2">Full Name</label>
+              <div class="flex items-center gap-3 border-b border-gray-300 pb-2 focus-within:border-[#3aab97] transition-colors duration-200">
+                <svg class="w-4 h-4 text-gray-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                  <circle cx="12" cy="8" r="4"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+                </svg>
+                <input type="text" placeholder="Dara Chan"
+                  class="w-full bg-transparent text-sm text-gray-700 placeholder-gray-400 outline-none"/>
+              </div>
+            </div>
+            <div>
+              <label class="block text-sm font-bold text-gray-700 mb-2">Username</label>
+              <div class="flex items-center gap-3 border-b border-gray-300 pb-2 focus-within:border-[#3aab97] transition-colors duration-200">
+                <svg class="w-4 h-4 text-gray-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"/>
+                </svg>
+                <input type="text" placeholder="darachan"
+                  class="w-full bg-transparent text-sm text-gray-700 placeholder-gray-400 outline-none"/>
+              </div>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div>
+            <label class="block text-sm font-bold text-gray-700 mb-2">Email Address</label>
+            <div class="flex items-center gap-3 border-b border-gray-300 pb-2 focus-within:border-[#3aab97] transition-colors duration-200">
+              <svg class="w-4 h-4 text-gray-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <rect x="2" y="5" width="20" height="14" rx="2.5"/>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2 8l10 6.5L22 8"/>
+              </svg>
               <input type="email" placeholder="you@example.com"
-                    class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-400 transition"/>
+                class="w-full bg-transparent text-sm text-gray-700 placeholder-gray-400 outline-none"/>
             </div>
+          </div>
 
+          <!-- Password + Confirm Password -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label class="block text-sm font-semibold text-gray-600 mb-1">
-                Password
-              </label>
-
-              <input type="password" placeholder="••••••••"
-                    class="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-400 transition"/>
+              <label class="block text-sm font-bold text-gray-700 mb-2">Password</label>
+              <div class="flex items-center gap-3 border-b border-gray-300 pb-2 focus-within:border-[#3aab97] transition-colors duration-200">
+                <svg class="w-4 h-4 text-gray-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                  <rect x="3" y="11" width="18" height="11" rx="2"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7 11V7a5 5 0 0110 0v4"/>
+                </svg>
+                <input type="password" placeholder="Min. 8 characters"
+                  class="w-full bg-transparent text-sm text-gray-700 placeholder-gray-400 outline-none"/>
+              </div>
             </div>
-
-            <div class="flex items-center justify-between text-sm flex-wrap gap-2">
-
-              <label class="flex items-center gap-2 text-gray-500">
-                <input type="checkbox" class="rounded"/> Remember me
-              </label>
-
-              <a href="#" class="text-teal-500 hover:text-teal-600 font-semibold">
-                Forgot password?
-              </a>
-
+            <div>
+              <label class="block text-sm font-bold text-gray-700 mb-2">Confirm Password</label>
+              <div class="flex items-center gap-3 border-b border-gray-300 pb-2 focus-within:border-[#3aab97] transition-colors duration-200">
+                <svg class="w-4 h-4 text-gray-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                  <rect x="3" y="11" width="18" height="11" rx="2"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7 11V7a5 5 0 0110 0v4"/>
+                </svg>
+                <input type="password" placeholder="Repeat password"
+                  class="w-full bg-transparent text-sm text-gray-700 placeholder-gray-400 outline-none"/>
+              </div>
             </div>
-
-            <button class="w-full bg-teal-500 hover:bg-teal-400 text-white font-bold py-3 rounded-xl transition text-lg shadow-md">
-              Sign Up
-            </button>
-
           </div>
 
-          <div class="my-6 flex items-center gap-3">
-            <hr class="flex-1 border-gray-200"/>
-            <span class="text-gray-400 text-sm">or</span>
-            <hr class="flex-1 border-gray-200"/>
+          <!-- Terms -->
+          <div class="flex items-start gap-2 pt-1">
+            <input type="checkbox" id="terms"
+              class="mt-0.5 w-4 h-4 rounded accent-[#3aab97] cursor-pointer flex-shrink-0"/>
+            <label for="terms" class="text-xs text-gray-500 leading-relaxed cursor-pointer">
+              I agree to the
+              <a href="#" class="text-[#3aab97] font-bold hover:underline">Terms of Service</a>
+              and
+              <a href="#" class="text-[#3aab97] font-bold hover:underline">Privacy Policy</a>
+            </label>
           </div>
 
-          <button class="w-full border border-gray-200 rounded-xl py-3 flex items-center justify-center gap-3 text-gray-600 hover:bg-gray-50 transition font-semibold">
-
-            <svg class="w-5 h-5" viewBox="0 0 48 48">
-              <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
-              <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
-              <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
-              <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.31-8.16 2.31-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
-            </svg>
-
-            Continue with Google
+          <!-- Submit -->
+          <button type="button"
+            class="w-full bg-[#3aab97] hover:bg-[#2d9282] active:bg-[#227569] text-white
+                   font-bold text-sm tracking-wide py-3.5 rounded-xl transition-colors duration-200">
+            Create Account
           </button>
 
-          <p class="text-center text-gray-500 text-sm mt-8">
-            Don't have an account?
-            <a href="/pages/login.html" class="text-teal-500 hover:text-teal-600 font-bold">
-              Sign up
-            </a>
+          <!-- Login link -->
+          <p class="text-center text-xs text-gray-400">
+            Already have an account?
+            <a href="/pages/login.html" class="text-[#3aab97] font-bold hover:underline">Login</a>
           </p>
 
         </div>
-
-        <!-- Right: Image -->
-        <div class="flex-1 flex items-center justify-center">
-          <img src="/assets/Login.gif"
-               class="w-full max-w-xs md:max-w-md h-auto rounded-2xl"
-               alt="Angkor Tom">
-        </div>
+      </div>
 
     </div>
-  </div>
+  </main>
 
   <!-- Scroll to Top Button -->
   <button id="scrollTopBtn"
-  class="fixed bottom-6 right-6 md:bottom-8 md:right-8 w-12 h-12 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 opacity-0 invisible z-50">
-      <svg class="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
-      </svg>
+    class="fixed bottom-8 right-8 w-12 h-12 bg-white/80 hover:bg-white rounded-full shadow-lg
+           flex items-center justify-center transition-all duration-300 opacity-0 invisible z-50">
+    <svg class="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+    </svg>
   </button>
 
+  <!-- Footer & Navbar components -->
   <div id="footer-container"></div>
-
-  <!-- Script JS -->
-  <script src="/components/footer.js"></script>
   <script src="/components/navbar.js"></script>
-  <script src="/components/signup.js"></script>
+  <script src="/components/footer.js"></script>
+  <script src="/components/login.js"></script>
 
 </body>
 </html>
