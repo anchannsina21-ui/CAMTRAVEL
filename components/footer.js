@@ -1,12 +1,12 @@
 function loadFooter() {
   const footer = `
-  <footer class="bg-[#2aab93] to-cyan-400  mt-auto rounded-t-4xl ">
+  <footer class="bg-teal-500 font-family mt-auto rounded-t-4xl ">
     <div class="max-w-7xl mx-auto px-8 pt-10 pb-8">
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 pb-8">
 
         <div class="flex flex-col gap-2 mr-3 pt-6">
-          <div class="brand-font text-3xl">
+          <div class="font-bold text-3xl">
             <span class="text-white">Cam</span><span class="text-amber-400 italic">Travel</span>
           </div>
           <p class="text-white/80 text-sm leading-relaxed max-w-xs">
@@ -15,7 +15,7 @@ function loadFooter() {
         </div>
 
         <div>
-          <h3 class="text-white font-bold text-lg mb-5 space-y-2">Destinations</h3>
+          <h3 class="text-white font-medium text-lg mb-5 space-y-2">Destinations</h3>
           <ul class="flex flex-col gap-2">
             <li><a href="../pages/culture.html"    class="text-white/90 hover:text-teal-300 font-semibold transition">Culture</a></li>
             <li><a href="../pages/nature.html"     class="text-white/90 hover:text-teal-300 font-semibold transition">Nature</a></li>

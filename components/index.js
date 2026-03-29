@@ -453,8 +453,6 @@ function goTo(idx){
                     </div>
                 </div>
             `).join('');
-
-            updatePaginationControls();
         }
 
         // Show detail view
@@ -622,7 +620,6 @@ function goTo(idx){
           document.getElementById('listView').classList.add('active');
           window.scrollTo(0, 0);
         }
-
 
         // Initialize on page load
         document.addEventListener('DOMContentLoaded', () => {
