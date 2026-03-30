@@ -16,14 +16,14 @@ const PLACES = [
     gallery: [
       'https://i.ytimg.com/vi/u-SZmp-Sn2E/maxresdefault.jpg',
       'https://www.khmertimeskh.com/wp-content/uploads/2024/01/w11.jpeg',
-      'https://scontent.fpnh2-2.fna.fbcdn.net/v/t39.30808-6/502416227_122220329600138338_3222536188370938061_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=13d280&_nc_ohc=rD0ERFWiJF0Q7kNvwG6QIWh&_nc_oc=Admh0iXu3g1sY0r273kvm0qevO-3o2dsBHJQXnCXfUbP0haX_54Ceu8asPeJ8OiaMOU&_nc_zt=23&_nc_ht=scontent.fpnh2-2.fna&_nc_gid=8qWEorHoXXLN3tiGEf1Org&_nc_ss=8&oh=00_AfxHwiJiZkQmA8nm2luJjl3R9AZe8PRcZ1Zxig6OaP1BeQ&oe=69B3081E'
+      'https://scontent.fpnh7-1.fna.fbcdn.net/v/t39.30808-6/490076344_122211044618138338_5028235152259082445_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_ohc=WCLlqSCNs_cQ7kNvwEUeP8R&_nc_oc=Adp3g8TxxGMtkdvi8Mte5W-_1AXImACLTOp6eEFZScTZ_7Tc_jS2WR8DngUMGVJRJHM&_nc_zt=23&_nc_ht=scontent.fpnh7-1.fna&_nc_gid=znImSrpWEkTADxzLsIo8qA&_nc_ss=7a30f&oh=00_AfzxHdHp2GRs3T1ehKf1W3WQQcJUDrEep33PTDesfFbX2w&oe=69C84B57'
     ]
   },
   {
     id: 'kirirom-national-park',
     title: 'Kirirom National Park',
     description: 'Kirirom National Park is a vast mountain playground famous.......',
-    image: 'https://scontent.fpnh2-2.fna.fbcdn.net/v/t39.30808-6/484926758_675767951779786_565974273015733342_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=JmtbF4nL7xcQ7kNvwEiepPt&_nc_oc=Adkww20j_aHxdioAlGbarqZ5LL3kROne4cf_Dy781lJ2kok9FwmYhTVYYOymd819FzU&_nc_zt=23&_nc_ht=scontent.fpnh2-2.fna&_nc_gid=D915x-6tBLwXDn2p3mXU_A&_nc_ss=8&oh=00_AfwCNL7nUJNS7QTnW9_cAGcLmMhuxRg3aDQ2c-W1_mnDvA&oe=69B339DB',
+    image: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/500955499.jpg?k=25e430d8ee5a1959cfc96a24e0c8c7cffe0473956c48cf63271682b600e47871&o=&hp=1',
 
     views: '2.2K',
     location: 'Kampong Speu, Cambodia',
@@ -34,16 +34,16 @@ const PLACES = [
     mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
     mapUrl:'https://maps.app.goo.gl/DTJboYau687u8Qnz5',
     gallery: [
-      'https://scontent.fpnh2-2.fna.fbcdn.net/v/t39.30808-6/484539207_675768005113114_5995738104456781601_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7b2446&_nc_ohc=8ngTxDpyXYQQ7kNvwHD711O&_nc_oc=Adk8sGlJHJowVwRMmxlZT-ECfx2jtD22D7v551797TJlvd2-nPwSjxdGK0SP7sqahwQ&_nc_zt=23&_nc_ht=scontent.fpnh2-2.fna&_nc_gid=e2q9jcGFyopElNq23qKedw&_nc_ss=8&oh=00_AfwnQTGtpT6gThdZ6DjAg0X6h18BjsDCfSqgM7lY92N_UA&oe=69B31BBF',
-      'https://phnompenhtaxiservice.com/wp-content/uploads/2022/05/Kirirom-camp-view.jpg',
-      'https://cambodia-travelpartner.com/accommodations/romhaey-kirirom-resort/'
+      'https://scontent.fpnh7-1.fna.fbcdn.net/v/t39.30808-6/484539207_675768005113114_5995738104456781601_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7b2446&_nc_ohc=Q13vzr9_sScQ7kNvwH8nl-I&_nc_oc=AdpMLJbSO8BsiFiHSopDOoKQ0zkfrGSlezDdMjdwLblfZW_gX5t50--ZJ3icBGr4uy4&_nc_zt=23&_nc_ht=scontent.fpnh7-1.fna&_nc_gid=xP-I3q5doTGngCz7vjh7pg&_nc_ss=7a30f&oh=00_Afw7KLvLYLKXhUZPQ3LqiXGmrfT-d53uxu1HmzZdr9IoHw&oe=69C833BF',
+      'https://i.ytimg.com/vi/F4hdPlp6pRg/maxresdefault.jpg',
+      'https://3.bp.blogspot.com/-RECF1tv9k0M/W3u2H-U0KfI/AAAAAAAAAFM/SHcFJMYZ_240POCla6ZL08-CKitki7wUwCLcBGAs/w1200-h630-p-k-no-nu/full-day-private-kirirom-national-park-and-chambok-village-tour-from-in-phnom-penh-511846.jpg'
     ]
   },
   {
     id: 'phum rottanak resort ',
     title: 'Phum Rottanak Resort ',
     description: 'Phum Rottanak Resort is a beautiful hill-top destination in Sen Monorom...',
-    image: 'https://scontent.fpnh2-2.fna.fbcdn.net/v/t39.30808-6/558701063_122156616710801203_7793890950592694297_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=hFZt38v2TwsQ7kNvwHENTVu&_nc_oc=AdlXnIf97J89ZmQRoP4FQ3FBQp-ICyGoNPPO70mNnvNhFpd1NncBBOUhLqAbcYW5fQw&_nc_zt=23&_nc_ht=scontent.fpnh2-2.fna&_nc_gid=dgjSAosXDW5zY9OjqiN_wA&_nc_ss=8&oh=00_Afx6-4YrGxVqrF_nQbDFJLOF4ijnRrJd_TMc5R9NDdoqYg&oe=69B338EF',
+    image: 'https://i.ytimg.com/vi/7Lh0SFOEN5U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCovJ-WTAxbKlNMtWgUYa9WnCxD6A',
     views: '2.2K',
     location: 'Mondulkiri, Cambodia',
     rating: 4.8,
@@ -54,8 +54,8 @@ const PLACES = [
     mapUrl:'https://maps.app.goo.gl/TrhH7BTvGRTaq8NH8',
     gallery: [
       'https://morningpostkh.com/storage/news/February2025/230.jpg',
-      'https://i.ytimg.com/vi/7Lh0SFOEN5U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCovJ-WTAxbKlNMtWgUYa9WnCxD6A',
-      'https://scontent.fpnh2-3.fna.fbcdn.net/v/t39.30808-6/558986427_833448419216383_241267659783165414_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7b2446&_nc_ohc=VpLd7n1AbYgQ7kNvwEoCLNU&_nc_oc=AdmQLeo2-euh0GHchm5TJ-Algue9Xn4JSmZfxoSq9RdRwaBLo2Y1vGZ5mTsyeGdEJpk&_nc_zt=23&_nc_ht=scontent.fpnh2-3.fna&_nc_gid=XeRq6Y_KUYp1tiBEWdkJmA&_nc_ss=8&oh=00_Afw6fYqAkrVryUZoMSGRQzCCEOqMavxPV3cYkY_IxWPslw&oe=69B323B1'
+      'https://tse1.mm.bing.net/th/id/OIP.TvGIQUMpEXQP0ATYUXdHzgHaE7?pid=Api&h=220&P=0',
+      'https://scontent.fpnh7-1.fna.fbcdn.net/v/t39.30808-6/557114636_122156616692801203_5483963868655714101_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7b2446&_nc_ohc=xxAxmkrKqMAQ7kNvwEvY_yn&_nc_oc=AdpG974Xy5Zje57MYYG0pBN_x38j2ZPnN4vVl9XWGCpejeiLmDSB89nVp-3-wbqqxvw&_nc_zt=23&_nc_ht=scontent.fpnh7-1.fna&_nc_gid=LdfyCFvbko3KDQ_F14agUA&_nc_ss=7a30f&oh=00_AfzvNLUePl7PlyHo-Pcg2LqYFerReZhlync5UVVvdl0MvQ&oe=69C83DF5'
     ]
   },
   {
@@ -73,7 +73,7 @@ const PLACES = [
     mapUrl:'https://maps.app.goo.gl/C8AXxd4qwcnjxDkWA',
     gallery: [
       'https://cdn.kohapikjunresort.com/wp-content/uploads/2023/05/Apikjun-Villa-1.jpg?strip=all&quality=90',
-      'https://scontent.fpnh24-1.fna.fbcdn.net/v/t39.30808-6/488451543_657079487233367_5975779170602099642_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=13d280&_nc_ohc=uNZjCq9LwDwQ7kNvwHjKihb&_nc_oc=AdnaG9jLjuyotBdM-vNqCfr2GXQVPCGqygsmvGwK2YDWCVgHK7a4F6HNYa3nZrQK5Qc&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=GqJQ_0azBpMiQTPb4sgHNg&_nc_ss=8&oh=00_AfzC7IW7on5uytblUufHi_hQPK25W5dHmKCMtJtkbYtkSg&oe=69B32E1A',
+      'https://cf.bstatic.com/xdata/images/hotel/max1024x768/826803036.jpg?k=bec28a694bf173f11087433aae9c5641377c578479a65544846c47992554352c&o=',
       'https://images.trvl-media.com/lodging/92000000/91620000/91616000/91615951/8f8c0239.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill'
     ]
   },
@@ -120,7 +120,7 @@ const PLACES = [
     id: 'Mlech Dam',
     title: 'Mlech Dam',
     description: 'Seahorses is a recreational spot in Kampot offering relaxing........ ',
-    image: 'https://scontent.fpnh24-1.fna.fbcdn.net/v/t39.30808-6/476095856_642540564877284_8139866818868242689_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=7b2446&_nc_ohc=dy2uJhrURJIQ7kNvwHqCumV&_nc_oc=Adk2PHZuEzAqvH2IqRCDZ_YUqjedknSiEHYhDFNZyNAoJxJOU8TndtVYuf-Rzkj8HmY&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=9q1dBXaHNIPUnmpbxKOlMQ&_nc_ss=8&oh=00_AfwbP6gawAWI6J0_sEQTJ-1VE8G0FLgpn-njpE5hSTpYxQ&oe=69B37084',
+    image: 'https://i.ytimg.com/vi/goQ52Y_ih2Y/maxresdefault.jpg',
     views: '2.1K',
     location: 'Kampot, Cambodia',
     rating: 4.9,
@@ -149,8 +149,8 @@ const PLACES = [
     mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
     mapUrl:'https://maps.app.goo.gl/GXVMzR5eGbpCdGdSA',
     gallery: [
-      'https://scontent.fpnh24-1.fna.fbcdn.net/v/t39.30808-6/480876082_614598007946026_8169429304453253067_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=_6FaZhMntp4Q7kNvwFgG6fp&_nc_oc=AdlwoNAiO29sKJme8mblJbcLvytn-UeX6Fcj678H4rsq3DpMtKCZLNutMxfIAWtexjQ&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=MeY9YsiPLHXwCBqpBEMEqg&_nc_ss=8&oh=00_Afzzu-YGQNuOwZtYLNEANv1O7jgcfnDY9piQudpvbFPbLQ&oe=69B34AC3',
-      'https://scontent.fpnh24-1.fna.fbcdn.net/v/t39.30808-6/487203632_3532386976895385_6597836432771496749_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=13d280&_nc_ohc=dGJSZudLt5wQ7kNvwHnKQb_&_nc_oc=AdkCSEAsawIAUmJ9pgNckzy547448FkR7XmT2KjCfA8FZ4-rm1tSYAetDW5Hs4iHnyc&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=l-jCQBjG_0bdYO3dflLDaQ&_nc_ss=8&oh=00_AfzFsf6YAi88eDK7_boBS-ov5FgwPx3vYjTBrulNz-LasQ&oe=69B37EA7',
+      'https://asset.tovtrip.com/uploads/0000/99/2023/07/13/phieu.jpg',
+      'https://i.ytimg.com/vi/sQLuyuSHnf8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgYSgwMA8=&rs=AOn4CLAYJOmfdgrqIH1Mt7m1arbMiCkS8A',
       'https://scontent.fpnh24-1.fna.fbcdn.net/v/t1.6435-9/66827488_1558044550994451_779482958737178624_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7b2446&_nc_ohc=fi8_kiZLYaAQ7kNvwEyPa_O&_nc_oc=AdkJ1J8Lym401gw7TpU7bG3_mSEtBjhcCJ-K8ZoVTF-vl3LcjowPbSBNiK3jxEk4W_k&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=BrgxdfKZCrNce_68nubz7A&_nc_ss=8&oh=00_AfxoHckaiGiMIXxZbg_N_D4tdTRBhxZMsR4Yyh2_RVS9EA&oe=69D50697'
     ]
   },{
@@ -167,7 +167,7 @@ const PLACES = [
     mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
     mapUrl:'https://maps.app.goo.gl/GdQdRua3Ck5FSPaZA',
     gallery: [
-      'https://scontent.fpnh24-1.fna.fbcdn.net/v/t39.30808-6/484530948_664665019275077_6555629123626877916_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_ohc=kOyT3uGT2IkQ7kNvwEQ-LDD&_nc_oc=AdmnZpIWvxzn9HxEMETc7_ZcsyqPGSEpkZ91s9LE-EAZFyhvgVVHEtbrO_sq7kHUUfA&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=q02htEhgnGW20dvtl_VHRg&_nc_ss=8&oh=00_AfyPGG32PGZeNCjSEfNzzLFb8RPvW4ysnpOo1aohr_zjDw&oe=69B34CE1',
+      'https://kohsantepheap.tv/wp-content/uploads/2018/09/20180916-8Q3A0147.jpg',
       'https://d34vm3j4h7f97z.cloudfront.net/original/4X/3/3/f/33f33fd4cfcb103742878ebd0afe355b14293860.jpeg',
       'https://www.khmertimeskh.com/wp-content/uploads/2023/11/Kampot-and-Preah-Sihanouk-look-forward-to-Water-Festival-tourist-bonanza.jpg'
     ]
@@ -185,9 +185,9 @@ const PLACES = [
     mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
     mapUrl:'https://maps.app.goo.gl/n9Zru9Cpx3jB87Ns9',
     gallery: [
-      'https://thmeythmey25.com/img/article/15-02-2021/1613377386.jpg',
+      'https://scontent.fpnh7-1.fna.fbcdn.net/v/t1.6435-9/150504814_1545904258941972_2890472491323169187_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=SskCAbUcWBoQ7kNvwHNjTkl&_nc_oc=Adr7MhcpD51Qes3AzLlNqEDPdSuKwCTZptkf9DaIqYVWI-CfDTVr7e75i75t4FmzZmo&_nc_zt=23&_nc_ht=scontent.fpnh7-1.fna&_nc_gid=fwo5QZF3UznXf0oKPvNfnw&_nc_ss=7a30f&oh=00_Afz9LLohyxwyD70fStQGheX5jMzM9Y_OCjkAkfZOadqUOA&oe=69E9C658',
       'https://www.visitkampot.info/__asset/img/gallery/60c4d0acf1f45.jpg',
-      'https://thmeythmey25.com/img/article/26-01-2021/1611654735.JPEG'
+      'https://image.thmeythmey.com/pictures/2021/01/31/thumb2/prek__5_.jpg'
     ]
   },{
     
@@ -413,12 +413,12 @@ function showDetail(placeId) {
   // Gallery
   const galleryEl = document.getElementById('detailGallery');
   galleryEl.innerHTML = place.gallery.map(img => `
-   <div class="w-[380px] h-[280px] overflow-hidden rounded-xl shadow shrink-0">
+  <div class="overflow-hidden rounded-xl shadow">
     <img src="${img}" 
-      class="w-full h-full object-cover 
+      class="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover 
              hover:scale-110 transition-transform duration-700 cursor-pointer">
-    </div>
-  `).join('');
+  </div>
+`).join('');
 
   // Map
   const mapContainer = document.getElementById('detailMapContainer');
@@ -524,22 +524,6 @@ function showList() {
   window.scrollTo(0, 0);
 }
 
-// STARS 
-function buildStars(rating) {
-  let html = '';
-  for (let i = 1; i <= 5; i++) {
-    const color = i <= Math.floor(rating) ? '#facc15' : '#d1d5db';
-    html += `<svg width="14" height="14" fill="${color}" viewBox="0 0 20 20">
-      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-    </svg>`;
-  }
-  html += `<span class="text-white/80 text-xs ml-1">${rating}</span>`;
-  return html;
-}
-
-const rating = 4.2; // example rating
-document.getElementById('ratingContainer').innerHTML = buildStars(rating);
-
 // INITIALIZE
 document.addEventListener('DOMContentLoaded', () => {
   renderCards();
@@ -553,8 +537,8 @@ document.addEventListener('DOMContentLoaded', () => {
       { src: "https://angkorwondergarden.com/wp-content/uploads/2025/05/473631926_122193903242138338_4355332744374490263_n.jpg", alt: "car siem reap" },
       { src: "https://easydiscoprod.s3.ap-southeast-1.amazonaws.com/thumb_profile_1685787143.jpg", alt: "water park" },
       { src: "https://media.sabay.com/media/Bin-Bunna40/MO-9/5fa0fcfb04285_1604386020.jpg", alt: "cultural village" },
-      { src: "https://scontent.fpnh5-5.fna.fbcdn.net/v/t39.30808-6/493274796_122113197626832509_5074322144269239284_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=b895b5&_nc_ohc=lRyaoY98LpkQ7kNvwGy4J53&_nc_oc=Adm-Y8tbImwDdKcoS2Mbc5ooJwo2bELhbVDrKD5jtc--0kt18i8X4rEs_C3V0R3k_1w&_nc_zt=23&_nc_ht=scontent.fpnh5-5.fna&_nc_gid=1enM82o-OcIIPhs8WVU-AQ&_nc_ss=8&oh=00_AfwOXu7SjJa65ZovkPLKFv17HTWXuo0IfseFtasWVPklDg&oe=69BCACF4", alt: "zip line" },
-      { src: "https://scontent.fpnh5-3.fna.fbcdn.net/v/t39.30808-6/484916935_1083988337091624_8666153943117998232_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e06c5d&_nc_ohc=8_4BM14R6MEQ7kNvwGa7fCn&_nc_oc=AdmSaWEsEZSRpDrJbfweOvGkPoffPK-pGSGY5LBVZ-5BlOxwY383pwToMHFvdj-zSRM&_nc_zt=23&_nc_ht=scontent.fpnh5-3.fna&_nc_gid=ZHf5FjIYBFwS4zoBWWbudg&_nc_ss=8&oh=00_AfwCv7ypfH5l2JQquIlNbXY1lmo8H_pLcg7nmF6TcJDcUA&oe=69BCAC5A", alt: "seahorse" },
+      { src: "https://www.tourismcambodia.com/img/travelguides/kampot-riverpark-cano.jpg?1488010714361", alt: "zip line" },
+      { src: "http://campuchia.org/wp-content/uploads/2024/04/434866393_911302134337577_6972607154483030822_n-1024x768.jpg", alt: "seahorse" },
       { src: "https://www.khmertimeskh.com/wp-content/uploads/2024/04/20230715_141929.jpg", alt: "kirirom" },
       { src: "https://sa-kampot.com/images/green-cathedral-2_hu_661f20fb03bcc787.jpg", alt: "boat kayak" },
     ];

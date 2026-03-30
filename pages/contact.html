@@ -1,119 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <link rel="stylesheet" href="/src/output.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="../src/output.css">
 </head>
-<body class="bg-teal-200">
 
-  <!-- Parent container with relative positioning and full height -->
-  <div class="relative w-full h-screen overflow-hidden">
-      
-      <!-- 1. The Map Image (Background) -->
-      <img src="https://img.freepik.com/premium-vector/location-cambodia-world-map-marked-with-cambodia-flag-pin_292608-37063.jpg?semt=ais_hybrid&w=740&q=80" 
-          class="absolute inset-0 w-full h-full object-cover" 
-          alt="Cambodia Map">
+<body class="bg-teal-200 font-family" >
 
-      <!-- 2. The Overlay (Optional: darkens the map so text is easier to read) -->
-      <div class="absolute inset-0 bg-teal-900/60"></div>
+  <!-- Hero Banner -->
+  <div class="relative w-full h-96 overflow-hidden">
 
-      <!-- 3. The Content (Centered on top) -->
-      <div class="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
-          <h1 class="text-5xl md:text-7xl font-family font-black text-teal-500 drop-shadow-md">
-            <span class="text-amber-400"> Get  In </span> Touch <span class="text-white"> With Us </span>
-          </h1>
-          <p class="text-white mt-3 text-lg md:text-xl font-family max-w-lg">
-              We'd love to hear from you. Reach out to start your Cambodian journey.
-          </p>
-      </div>
+    <img src="https://www.techoairport.com.kh/tia-backend/banners/1756434130839-Website%20Cover%201.jpg"
+         class="absolute w-full h-96 object-cover"
+         alt="Cambodia Map"/>
+
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <div class="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
+      <h1 class="text-5xl md:text-7xl font-black text-teal-500 drop-shadow-md">
+        <span>Get In</span> Touch <span class="text-white/90">With Us</span>
+      </h1>
+      <p class="text-white/70 mt-3 text-lg md:text-xl max-w-lg">
+        We'd love to hear from you. Reach out to start your Cambodian journey.
+      </p>
+    </div>
+
   </div>
-  <section class="py-16 px-4 ">
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 rounded-2xl  drop-shadow-xl bg-teal-500 transition scale-105">
 
-      <div class="bg-white/90 rounded-2xl shadow-xl p-10 drop-shadow-2xl">
-        <h2 class="font-logo text-2xl font-black text-gray-800 mb-6">Send a Message</h2>
-        <div class="space-y-5">
-          <div>
-            <label class="block text-sm font-semibold text-gray-600 mb-1">Your Name</label>
-            <input type="text" placeholder="Dara Chan"
-                   class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400 transition"/>
+  <!-- Card Section -->
+  <div class="flex justify-center items-center px-4 py-16">
+
+    <div class="w-full max-w-3xl rounded-2xl overflow-hidden flex flex-col md:flex-row shadow-2xl">
+
+      <!-- LEFT: Teal panel -->
+      <div class="w-full md:w-2/5 flex flex-col justify-between p-8 md:p-10 relative overflow-hidden bg-[#3aab97]">
+
+        <div class="absolute -top-12 -left-12 w-48 h-48 rounded-full bg-white/5 pointer-events-none"></div>
+        <div class="absolute -bottom-16 -right-10 w-56 h-56 rounded-full bg-white/5 pointer-events-none"></div>
+
+        <!-- Logo -->
+        <div class="relative z-10">
+          <p class="font-extrabold text-2xl tracking-wide leading-none text-white">
+            Cam<span class="text-[#f0a500] text-3xl" style="font-family:'Dancing Script',cursive;">Travel</span>
+          </p>
+        </div>
+
+        <!-- Contact info -->
+        <div class="relative z-10 mt-10 space-y-5">
+
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0">
+              <svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <rect x="2" y="5" width="20" height="14" rx="2.5"/>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2 8l10 6.5L22 8"/>
+              </svg>
+            </div>
+            <span class="text-sm font-medium text-white/90">info@camtravel.com</span>
           </div>
-          <div>
-            <label class="block text-sm font-semibold text-gray-600 mb-1">Email Address</label>
-            <input type="email" placeholder="you@example.com"
-                   class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400 transition"/>
+
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0">
+              <svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 5.5C3 14.06 9.94 21 18.5 21c.83 0 1.5-.67 1.5-1.5v-2.96a1.5 1.5 0 00-1.04-1.43l-2.64-.88a1.5 1.5 0 00-1.62.44l-.97 1.1A11.04 11.04 0 018.3 9.23l1.1-.97a1.5 1.5 0 00.44-1.62l-.88-2.64A1.5 1.5 0 007.5 3H4.5A1.5 1.5 0 003 4.5v1z"/>
+              </svg>
+            </div>
+            <span class="text-sm font-medium text-white/90">+855 963 339 318</span>
           </div>
-          <div>
-            <label class="block text-sm font-semibold text-gray-600 mb-1">Subject</label>
-            <input type="text" placeholder="How can we help?"
-                   class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400 transition"/>
+
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0">
+              <svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21S5 13.5 5 8.5a7 7 0 1114 0C19 13.5 12 21 12 21z"/>
+                <circle cx="12" cy="8.5" r="2.2" stroke-width="1.8"/>
+              </svg>
+            </div>
+            <span class="text-sm font-medium text-white/90">Phnom Penh, Cambodia</span>
           </div>
+
+        </div>
+
+        <!-- splace look clean -->
+        <div class="hidden md:block relative z-10 mt-10 pt-6 border-t border-white/20">
+          <p class="text-xs font-medium text-white/60"></p>
+        </div>
+
+      </div>
+
+      <!-- RIGHT: White form -->
+      <div class="bg-white flex-1 p-8 md:p-10">
+
+        <h2 class="font-extrabold text-2xl text-gray-800 mb-7">Send us a Message</h2>
+
+        <div class="space-y-6">
+
           <div>
-            <label class="block text-sm font-semibold text-gray-600 mb-1">Message</label>
-            <textarea rows="5" placeholder="Tell us what's on your mind..."
-                      class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400 transition resize-none"></textarea>
+            <label class="block text-sm font-bold text-gray-700 mb-2">Name</label>
+            <input type="text" placeholder="Enter your Name"
+              class="w-full border-b border-gray-300 pb-2 bg-transparent text-sm text-gray-700
+                     placeholder-gray-400 outline-none focus:border-[#3aab97] transition-colors duration-200"/>
           </div>
-          <button id="send-btn"
-                  class="w-full bg-teal-500 hover:bg-teal-400 text-white font-bold py-3 rounded-xl transition text-lg">
-            Send Message
+
+          <div>
+            <label class="block text-sm font-bold text-gray-700 mb-2">Email</label>
+            <input type="email" placeholder="Enter a valid email address"
+              class="w-full border-b border-gray-300 pb-2 bg-transparent text-sm text-gray-700
+                     placeholder-gray-400 outline-none focus:border-[#3aab97] transition-colors duration-200"/>
+          </div>
+
+          <div>
+            <label class="block text-sm font-bold text-gray-700 mb-2">Message</label>
+            <textarea rows="4" placeholder="Write your message here…"
+              class="w-full border-b border-gray-300 pb-2 bg-transparent text-sm text-gray-700
+                     placeholder-gray-400 outline-none focus:border-[#3aab97] transition-colors duration-200 resize-none"></textarea>
+          </div>
+
+          <button type="button"
+            class="w-full bg-[#3aab97] hover:bg-[#2d9282] active:bg-[#227569] text-white
+                   font-bold text-sm tracking-wide py-3.5 rounded-xl transition-colors duration-200">
+            Submit
           </button>
         </div>
       </div>
-
-      <div class="space-y-8 rounded-2xl pt-10">
-        <div>
-          <h2 class="font-logo text-2xl font-black text-gray-800 mb-4">Get in Touch</h2>
-          <p class="text-white/80 leading-relaxed">Have questions about traveling in Cambodia? Our team of local experts is available to answer any questions you might have.</p>
-        </div>
-        <div class="space-y-6">
-          <div class="flex items-start gap-4">
-            <div class="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center text-2xl flex-shrink-0">📍</div>
-            <div>
-              <h4 class="font-bold text-gray-600">Address</h4>
-              <p class="text-white/80">Street 240, BKK1<br/>Phnom Penh, Cambodia 12301</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-4">
-            <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center text-2xl flex-shrink-0">📞</div>
-            <div>
-              <h4 class="font-bold text-gray-800">Phone</h4>
-              <p class="text-white/80">+855 23 456 789</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-4">
-            <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center text-2xl flex-shrink-0">📧</div>
-            <div>
-              <h4 class="font-bold text-gray-800">Email</h4>
-              <p class="text-white/80">hello@camtravel.com</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-4">
-            <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center text-2xl flex-shrink-0">🕐</div>
-            <div>
-              <h4 class="font-bold text-gray-600">Working Hours</h4>
-              <p class="text-white/80">Mon – Fri: 8:00 AM – 6:00 PM (ICT)<br/>Sat: 9:00 AM – 1:00 PM</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </section>
-  <!-- Scroll to Top Button (Fixed Position) -->
-  <button id="scrollTopBtn" class="fixed bottom-8 right-8 w-12 h-12 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 opacity-0 invisible z-50">
-      <svg class="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
-      </svg>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollTopBtn"
+    class="fixed bottom-8 right-8 w-12 h-12 bg-white/80 hover:bg-white rounded-full shadow-lg
+           flex items-center justify-center transition-all duration-300 opacity-0 invisible z-50">
+    <svg class="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+    </svg>
   </button>
 
-  <!-- footer -->
+  <!-- Footer & Navbar components -->
   <div id="footer-container"></div>
-
-  <!-- Script JS -->
-  <script src="/components/footer.js"></script>
-  <script src="/components/navbar.js"></script>
-  <script src="/components/contact.js"></script>
+  <script src="../components/footer.js"></script>
+  <script src="../components/navbar.js"></script>
 </body>
 </html>

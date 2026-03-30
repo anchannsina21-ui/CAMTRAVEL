@@ -4,7 +4,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Nature Places</title>
-  <link rel="stylesheet" href="/src/output.css">
+  <link rel="stylesheet" href="../src/output.css">
   <style>
     .view { display: none;}
     .view.active { display: block;}
@@ -68,13 +68,6 @@
         <p class="text-base sm:text-lg md:text-xl text-white/90 font-light leading-relaxed max-w-sm sm:max-w-md mb-10">
           Explore Waterfall, beaches, and Island. Find the most popular destinations easily!
         </p>
-
-        <!-- CTA Group: Larger touch targets for mobile users -->
-        <div class="flex flex-wrap items-center gap-4">
-          <a href="#" class="w-full sm:w-auto text-center px-10 py-5 rounded-full bg-gradient-to-r from-teal-600 to-cyan-500 font-bold text-lg shadow-xl shadow-teal-900/40 hover:shadow-teal-500/50 hover:-translate-y-1 transition-all duration-300">
-            Start Exploring
-          </a>
-        </div>
       </div>
 
       <!-- Mobile-only subtle bottom fade -->
@@ -111,48 +104,41 @@
       </div>
     </div>
 
-    <!-- Static data -->
-    <div class="max-w-6xl mx-auto px-6 sm:px-10 py-12 sm:py-20 flex flex-col md:flex-row items-start gap-10 md:gap-12">
- 
-      <!-- Left: Text Content -->
-      <div class="flex-1 flex flex-col gap-4 pt-2 md:pt-6">
-  
-        <!-- "Natural with" on translucent white -->
-        <div class=" bg-white/60 px-3 py-1 w-fit">
-          <h1 class="font-family text-4xl sm:text-5xl md:text-6xl text-[#1a9e8f]">
-            Natural with
-          </h1>
+    <!-- Static data Section -->
+    <section class="bg-white/90 py-12 sm:py-16 lg:py-20 px-6 sm:px-10 lg:px-16">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-12 ">
+
+        <!-- Left: Text Content -->
+        <div class="flex-1 flex flex-col gap-4 text-center md:text-left">
+          
+          <!-- "Natural with" -->
+          <div class="bg-white/60 px-3 py-1 w-fit mx-auto md:mx-0">
+            <h1 class="font-family font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-[#1a9e8f]">
+              Natural with
+            </h1>
+          </div>
+
+          <!-- "real lifes" -->
+          <div class="bg-teal-500 px-3 py-2 w-fit mx-auto md:mx-0 md:ml-32 lg:ml-48">
+            <h1 class="font-family font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-white">
+              real lifes
+            </h1>
+          </div>
+
+          <!-- Body paragraph -->
+          <p class="font-family text-gray-600 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed max-w-lg mx-auto md:mx-0 mt-4">
+            The jungles of Kampot are lined with a maze of red dirt roads just waiting to be explored. 
+            The best way to do so is with some serious off‑road vehicles. Drive through the rice fields with made.
+          </p>
         </div>
-  
-        <!-- "real lifes" on teal -->
-        <div class="bg-[#1a9e8f] px-3 py-2 w-fit ml-64">
-          <h1 class="font-family text-4xl sm:text-5xl md:text-6xl text-white">
-            real lifes
-          </h1>
-        </div>
-  
-        <!-- Body paragraph -->
-        <p class="font-family text-gray-500 text-base sm:text-lg md:text-xl leading-relaxed max-w-lg mt-4">
-          The jungles of Kampot are lined with a maze of
-          red dirt roads just waiting to be explored. The
-          best way to do so is with some serious off road
-          vehicles. Drive through the rice fields with made
-        </p>
+
+        <!-- Right: Image -->
+          <div class="max-w-lg h-full overflow-hidden rounded-xl">
+            <img src="https://touristworld1.wordpress.com/wp-content/uploads/2021/07/fc46ecac015ab0eb5effcbd4b3f525c5.jpg" alt="Lifestyle of people – river and mountain" class="w-full max-w-lg h-[220px] sm:h-[300px] md:w-[400px] md:h-[360px] lg:w-full lg:h-[420px] object-cover rounded-2xl hover:scale-105 transition-transform duration-500 ease-in-out"/>
+          </div>
       </div>
-  
-      <!-- Right: Image with label -->
-      <div class="flex-1 flex flex-col w-full">
-  
-        <!-- Teal-bordered image -->
-        <div class=" w-full max-w-xs sm:max-w-sm md:max-w-lg">
-          <img
-            src="https://touristworld1.wordpress.com/wp-content/uploads/2021/07/fc46ecac015ab0eb5effcbd4b3f525c5.jpg"
-            alt="Lifestyle of people – river and mountain"
-            class="w-full h-96 object-cover"
-          />
-        </div>
-      </div>
-    </div>
+    </section>
+
 
     <!-- gallery -->
     <div class="bg-white/10 backdrop-blur-md rounded-3xl py-6 md:py-10 w-[95%] lg:w-full max-w-[1100px] overflow-hidden mt-12 mb-12 md:mb-24 md:mt-24 flex justify-center mx-auto border border-white/80 shadow-2xl">
@@ -194,10 +180,6 @@
             <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
           </svg>
           <span id="detailLocation">Siem Reap, Cambodia</span>
-          <span class="mx-2">•</span>
-          <div id="ratingContainer" class="flex items-center gap-0.5">
-            <!-- Stars will be injected here -->
-          </div>
         </div>
       </div>
     </div>
@@ -312,8 +294,8 @@
   <!-- FOOTER -->
   <div id="footer-container"></div>
   <!-- Include places.js -->
-  <script src="/components/nature.js"></script>
-  <script src="/components/navbar.js"></script>
-  <script src="/components/footer.js"></script>
+  <script src="../components/nature.js"></script>
+  <script src="../components/navbar.js"></script>
+  <script src="../components/footer.js"></script>
 </body>
 </html>

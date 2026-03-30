@@ -1,27 +1,6 @@
 // Navbar component
 (function () {
 
-  // Inject Google Fonts
-  const font = document.createElement("link");
-  font.rel  = "stylesheet";
-  font.href = "https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700&display=swap";
-  document.head.appendChild(font);
-
-  // Minimal custom styles ONLY for things Tailwind can't do
-  const style = document.createElement("style");
-  style.textContent = `
-    .brand-font { font-family: 'Pacifico', cursive; }
-    .nav-font   { font-family: 'Nunito', sans-serif; }
-    @keyframes dropIn {
-      from { opacity: 0; transform: translateY(-8px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-    .drop-anim { animation: dropIn 0.2s ease forwards; }
-    .arrow-icon { transition: transform 0.22s ease; display: inline-block; }
-    .arrow-icon.open { transform: rotate(180deg); }
-  `;
-  document.head.appendChild(style);
-
   // Arrow SVG helper
   function arrowSVG(id) {
     return `<svg id="${id}" class="arrow-icon w-4 h-4 flex-shrink-0" viewBox="0 0 24 24"
@@ -40,10 +19,10 @@
 
   nav.innerHTML = `
     <!-- Teal pill container -->
-    <div class="bg-[#2bbfaf] top-0 z-50 shadow-xl h-16 flex items-center px-16 justify-between">
+    <div class="bg-teal-500 font-family top-0 z-50 shadow-xl h-16 flex items-center px-16 justify-between">
 
       <!-- Logo -->
-      <a href="#" class="brand-font text-2xl md:text-3xl no-underline flex-shrink-0">
+      <a href="#" class="font-bold text-2xl md:text-3xl no-underline flex-shrink-0">
         <span class="text-white">Cam</span><span class="text-amber-400 italic">Travel</span>
       </a>
 

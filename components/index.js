@@ -66,23 +66,14 @@ const INTERVAL=8000;
         <div class="absolute inset-0"
             style="background:linear-gradient(to right,rgba(0,0,0,0.55),transparent)">
         </div>
-        <div class="absolute inset-0 z-[5] flex flex-col justify-center px-[7%] max-w-[800px]">
-                <h1 class="slide-title text-white font-bold mb-5"
+        <div class="absolute inset-0 z-[5] flex flex-col justify-center px-[7%] max-w-[800px] mt-8">
+                <h1 class="slide-title text-white font-bold mb-2"
                     style="font-size:clamp(3rem,6vw,5.5rem)">
                     ${s.title}
                 </h1>
                 <p class="slide-desc text-white/75 max-w-[500px] mb-9">
                 ${s.desc}
                 </p>
-            <div class="slide-actions flex gap-5">
-                <button class="bg-[#2bbfaf] text-white px-8 py-[13px] rounded-full">
-                    Explore Now
-                </button>
-
-                <button class="border border-white/25 text-white/70 px-7 py-[13px] rounded-full">
-                    Learn More
-                </button>
-            </div>
         </div>
     `;
 
@@ -248,8 +239,8 @@ function goTo(idx){
                 ],
                 travelSchedule: {
                     images: [
-                        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg',
-                        'https://vietlongtravel.com/wp-content/uploads/2015/01/Sihanoukville-Beach.jpg'
+                        'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/7e/76/f0.jpg',
+                        'https://img.freepik.com/premium-photo/view-typical-cambodian-long-tale-boat-anchored-beach-otres-near-sihanoukville_1048944-24824117.jpg'
                     ],
                     departureSchedule: [
                         { label: 'Morning',   time: '7:30 AM – 9:00 AM' },
@@ -354,8 +345,8 @@ function goTo(idx){
                 mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
                 mapUrl:'https://maps.app.goo.gl/GXVMzR5eGbpCdGdSA',
                 gallery: [
-                'https://scontent.fpnh24-1.fna.fbcdn.net/v/t39.30808-6/480876082_614598007946026_8169429304453253067_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=_6FaZhMntp4Q7kNvwFgG6fp&_nc_oc=AdlwoNAiO29sKJme8mblJbcLvytn-UeX6Fcj678H4rsq3DpMtKCZLNutMxfIAWtexjQ&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=MeY9YsiPLHXwCBqpBEMEqg&_nc_ss=8&oh=00_Afzzu-YGQNuOwZtYLNEANv1O7jgcfnDY9piQudpvbFPbLQ&oe=69B34AC3',
-                'https://scontent.fpnh24-1.fna.fbcdn.net/v/t39.30808-6/487203632_3532386976895385_6597836432771496749_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=13d280&_nc_ohc=dGJSZudLt5wQ7kNvwHnKQb_&_nc_oc=AdkCSEAsawIAUmJ9pgNckzy547448FkR7XmT2KjCfA8FZ4-rm1tSYAetDW5Hs4iHnyc&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=l-jCQBjG_0bdYO3dflLDaQ&_nc_ss=8&oh=00_AfzFsf6YAi88eDK7_boBS-ov5FgwPx3vYjTBrulNz-LasQ&oe=69B37EA7',
+                'https://asset.tovtrip.com/uploads/0000/99/2023/07/13/phieu.jpg',
+                'https://i.ytimg.com/vi/sQLuyuSHnf8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgYSgwMA8=&rs=AOn4CLAYJOmfdgrqIH1Mt7m1arbMiCkS8A',
                 'https://scontent.fpnh24-1.fna.fbcdn.net/v/t1.6435-9/66827488_1558044550994451_779482958737178624_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7b2446&_nc_ohc=fi8_kiZLYaAQ7kNvwEyPa_O&_nc_oc=AdkJ1J8Lym401gw7TpU7bG3_mSEtBjhcCJ-K8ZoVTF-vl3LcjowPbSBNiK3jxEk4W_k&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=BrgxdfKZCrNce_68nubz7A&_nc_ss=8&oh=00_AfxoHckaiGiMIXxZbg_N_D4tdTRBhxZMsR4Yyh2_RVS9EA&oe=69D50697'
                 ]
             },
@@ -398,24 +389,24 @@ function goTo(idx){
                 ]
             },
             {
-                id: 'Daung TE',
-                title: 'Daung TE',
-                description: 'Daung Te is a riverside destination on the Prek Tuek Chhu River for....',
-                image: 'https://www.khmertimeskh.com/wp-content/uploads/2024/10/a6.jpeg',
-                views: '2.1K',
-                location: 'Kampot, Cambodia',
-                rating: 4.9,
-                openingHours: 'open daily – 24h',
-                ticketPrice: 'free entry',
-                fullDescription: 'Daung Te is a riverside destination on the Prek Tuek Chhu River for fun and relaxation. Visitors can enjoy kayaking, rope swings, hammocks on a floating raft, a restaurant, and guesthouses, making it a popular family-friendly spot on weekends. The resort standout feature is its massive riverside water slide, which launches thrill-seekers directly into the refreshing currents of the river. For those seeking a slower pace, the sunset boat tours offer a serene way to take in the mountain views as the sky turns vibrant shades of orange and pink.',
-                mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
-                mapUrl:'https://maps.app.goo.gl/GdQdRua3Ck5FSPaZA',
-                gallery: [
-                'https://scontent.fpnh24-1.fna.fbcdn.net/v/t39.30808-6/484530948_664665019275077_6555629123626877916_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_ohc=kOyT3uGT2IkQ7kNvwEQ-LDD&_nc_oc=AdmnZpIWvxzn9HxEMETc7_ZcsyqPGSEpkZ91s9LE-EAZFyhvgVVHEtbrO_sq7kHUUfA&_nc_zt=23&_nc_ht=scontent.fpnh24-1.fna&_nc_gid=q02htEhgnGW20dvtl_VHRg&_nc_ss=8&oh=00_AfyPGG32PGZeNCjSEfNzzLFb8RPvW4ysnpOo1aohr_zjDw&oe=69B34CE1',
-                'https://d34vm3j4h7f97z.cloudfront.net/original/4X/3/3/f/33f33fd4cfcb103742878ebd0afe355b14293860.jpeg',
-                'https://www.khmertimeskh.com/wp-content/uploads/2023/11/Kampot-and-Preah-Sihanouk-look-forward-to-Water-Festival-tourist-bonanza.jpg'
-                ]
-            }
+            id: 'Daung TE',
+            title: 'Daung TE',
+            description: 'Daung Te is a riverside destination on the Prek Tuek Chhu River for....',
+            image: 'https://www.khmertimeskh.com/wp-content/uploads/2024/10/a6.jpeg',
+            views: '2.1K',
+            location: 'Kampot, Cambodia',
+            rating: 4.9,
+            openingHours: 'open daily – 24h',
+            ticketPrice: 'free entry',
+            fullDescription: 'Daung Te is a riverside destination on the Prek Tuek Chhu River for fun and relaxation. Visitors can enjoy kayaking, rope swings, hammocks on a floating raft, a restaurant, and guesthouses, making it a popular family-friendly spot on weekends. The resort standout feature is its massive riverside water slide, which launches thrill-seekers directly into the refreshing currents of the river. For those seeking a slower pace, the sunset boat tours offer a serene way to take in the mountain views as the sky turns vibrant shades of orange and pink.',
+            mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7649679383747!2d104.92445731483!3d11.564114991788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x164d89223cdb1c82!2sRoyal%20Palace!5e0!3m2!1sen!2skh',
+            mapUrl:'https://maps.app.goo.gl/GdQdRua3Ck5FSPaZA',
+            gallery: [
+            'https://kohsantepheap.tv/wp-content/uploads/2018/09/20180916-8Q3A0147.jpg',
+            'https://d34vm3j4h7f97z.cloudfront.net/original/4X/3/3/f/33f33fd4cfcb103742878ebd0afe355b14293860.jpeg',
+            'https://www.khmertimeskh.com/wp-content/uploads/2023/11/Kampot-and-Preah-Sihanouk-look-forward-to-Water-Festival-tourist-bonanza.jpg'
+            ]
+        }
         ];
 
         // Pagination state
@@ -437,7 +428,7 @@ function goTo(idx){
                     <div class="relative">
                         <img src="${place.image}" alt="${place.title}" 
                              class="w-full h-40 object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out">
-                        <span class="absolute top-3 left-48 bg-white/90 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">
+                        <span class="absolute top-3 right-3 bg-white/90 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">
                             Popular
                         </span>
                     </div>
@@ -462,33 +453,6 @@ function goTo(idx){
                     </div>
                 </div>
             `).join('');
-
-            updatePaginationControls();
-        }
-
-        // Update pagination controls
-        function updatePaginationControls() {
-            document.getElementById('pageInfo').textContent = `${currentPage} / ${totalPages}`;
-            document.getElementById('prevBtn').disabled = currentPage === 1;
-            document.getElementById('nextBtn').disabled = currentPage === totalPages;
-        }
-
-        // Navigate to next page
-        function nextPage() {
-            if (currentPage < totalPages) {
-                currentPage++;
-                renderCards();
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            }
-        }
-
-        // Navigate to previous page
-        function previousPage() {
-            if (currentPage > 1) {
-                currentPage--;
-                renderCards();
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            }
         }
 
         // Show detail view
@@ -516,10 +480,11 @@ function goTo(idx){
             // Update gallery
             const galleryEl = document.getElementById('detailGallery');
             galleryEl.innerHTML = place.gallery.map(img => `
-                <div class="w-[380px] h-[280px] overflow-hidden rounded-xl shadow shrink-0">
-                    <img src="${img}" 
-                    class="w-full h-full object-cover hover:scale-110 transition-transform duration-700 cursor-pointer">
-                </div>
+            <div class="overflow-hidden rounded-xl shadow">
+                <img src="${img}" 
+                class="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover 
+                        hover:scale-110 transition-transform duration-700 cursor-pointer">
+            </div>
             `).join('');
 
             // Update map
@@ -559,40 +524,47 @@ function goTo(idx){
 
             container.style.display = 'block';
             container.innerHTML = `
-                <div class="bg-white/80 rounded-2xl shadow-md mt-4 p-8 flex flex-col md:flex-row gap-8">
-                <div class="flex flex-col gap-4 md:w-[800px]">
-                    <h2 class="text-2xl font-bold text-teal-600 mb-6 mt-2">Travel Schedule Boats</h2>
-                    <div class="flex gap-3">
+            <div class="bg-white/80 rounded-2xl shadow-md mt-4 p-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Left: Gallery -->
+                <div class="flex flex-col gap-6">
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-teal-600">Travel Schedule Boats</h2>
+                
+                <!-- Responsive grid for images -->
+                <div class="grid gap-4 grid-cols-2">
                     ${images.map(img => `
-                        <div class="w-full overflow-hidden rounded-xl shadow">
+                    <div class="overflow-hidden rounded-xl shadow">
                         <img src="${img}" 
-                            class="w-full h-40 sm:h-52 object-cover 
+                        class="w-full h-40 sm:h-52 md:h-64 object-cover 
                                 hover:scale-110 transition-transform duration-700 cursor-pointer" />
-                        </div>
-                    `).join('')}
                     </div>
+                    `).join('')}
                 </div>
-                <div class="md:w-1/2 bg-teal-50 rounded-xl p-5">
-                    <p class="text-teal-700 font-semibold mb-2">Operate several times per day as follows:</p>
-                    <ul class="space-y-1 mb-4">
+                </div>
+                
+                <!-- Right: Schedule -->
+                <div class="bg-teal-50 rounded-xl p-5">
+                <p class="text-teal-700 font-semibold mb-2">Operate several times per day as follows:</p>
+                <ul class="space-y-1 mb-4">
                     ${departureSchedule.map(s => `
-                        <li class="flex items-center gap-2 text-teal-600">
+                    <li class="flex items-center gap-2 text-teal-600">
                         <span class="w-2 h-2 bg-teal-500 rounded-full inline-block"></span>
                         <span><strong>${s.label}:</strong> ${s.time}</span>
-                        </li>
+                    </li>
                     `).join('')}
-                    </ul>
-                    <p class="text-teal-700 font-semibold mb-2">Return Schedule</p>
-                    <ul class="space-y-1">
+                </ul>
+                
+                <p class="text-teal-700 font-semibold mb-2">Return Schedule</p>
+                <ul class="space-y-1">
                     ${returnSchedule.map(s => `
-                        <li class="flex items-center gap-2 text-teal-600">
+                    <li class="flex items-center gap-2 text-teal-600">
                         <span class="w-2 h-2 bg-teal-500 rounded-full inline-block"></span>
                         <span><strong>${s.label}:</strong> ${s.time}</span>
-                        </li>
+                    </li>
                     `).join('')}
-                    </ul>
+                </ul>
                 </div>
-                </div>
+            </div>
             `;
             }
 
@@ -616,7 +588,7 @@ function goTo(idx){
                     <div class="relative">
                         <img src="${place.image}" alt="${place.title}" 
                              class="w-full h-36 object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out">
-                        <span class="absolute top-3 left-48 bg-white/90 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">
+                        <span class="absolute top-3 right-3 bg-white/90 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">
                             Popular
                         </span>
                     </div>
@@ -648,7 +620,6 @@ function goTo(idx){
           document.getElementById('listView').classList.add('active');
           window.scrollTo(0, 0);
         }
-
 
         // Initialize on page load
         document.addEventListener('DOMContentLoaded', () => {
